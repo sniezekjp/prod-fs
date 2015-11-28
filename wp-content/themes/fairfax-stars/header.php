@@ -79,7 +79,7 @@
 	<?php //echo twoot_generator('logo'); ?>
 		<div class="rows clearfix">
 			<div class="column six">
-				<h1>FS</h1>
+				<h1><a href="/">FS</a></h1>
 			</div>
 			<div class="column six" style="display: none;">
 				<img class="gey-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/girls-elite-youth.png" alt="Girls Elite Youth Basketball">

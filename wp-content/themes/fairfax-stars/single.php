@@ -52,25 +52,6 @@ $format=get_post_format() === false? 'standard':get_post_format();
 	</div>
 	<!--end post blog-->
 
-	<?php 
-		// $q = new Twoot_Template_Related_Posts(array(
-		// 	'title' => esc_attr__('Related Posts', 'Twoot'), 
-		// 	'counts' => twoot_get_frontend_func('opt', 'opt', 'blog_related_counts'),
-		// 	'order' => twoot_get_frontend_func('opt', 'opt', 'blog_related_order'),
-		// 	'orderby' => twoot_get_frontend_func('opt', 'opt', 'blog_related_orderby'),
-		// 	'post_type'	=> 'post',
-		// 	'taxonomy'  => 'category'
-		// ));
-
-		// echo $q->post();
-	?>
-
-	<?php 
-		// if(comments_open()) { 
-		// 	comments_template( '', true ); 
-		// } 
-	?>
-
 	</div>
 
 	<?php endif; ?>
