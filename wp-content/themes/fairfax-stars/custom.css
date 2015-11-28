@@ -5,3 +5,9 @@ h3.title a {
 .attachment-post-thumbnail {
 	width: 100%;
 }
+
+/* Display none for now */
+.gey-logo { 
+	width: 80px;
+	float: right;
+}
