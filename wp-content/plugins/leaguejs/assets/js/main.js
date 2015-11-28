@@ -37,7 +37,7 @@
         
         $(window).scroll(function() {    
             var scroll = $(window).scrollTop();
-            if (scroll >= 180) {
+            if (scroll >= 215) {
                 menu.addClass("stick");
             } else {
                 menu.removeClass("stick");
