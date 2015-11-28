@@ -71,3 +71,84 @@ input[type=tel] {
 .minus:focus {
     outline: none;
 }
+
+/* custom css from theme skins */
+.desc a,
+.twitter-carousel li > a,
+.follow-us a,
+.the-grid-list ul li .item-head h3.title a:hover{
+    color: rgba(163,68,62,1);
+}
+.contact-page form p{
+    font-family: Arvo, Arial, Helvetica, serif, sans-serif;
+}
+.twitter-carousel li > a:hover,
+.follow-us a:hover{
+    color: #333;
+}
+.twitter-carousel li{
+    display:none;
+}
+#menu-product-categories a,
+.shopping-cart a,
+.woocommerce-result-count,
+.onsale,
+.desc{
+    font-size: 13px;
+}
+.avatar .preloader img{
+    width:100%;
+    border: 1px solid lightgray;
+}
+.site-logo .tagline{
+    font-size: 13px !important;
+}
+.site-logo{
+    /*background-color: #F7F7F7;*/
+}
+select{
+    -webkit-appearance: menulist-button;
+    width: 360px;
+    height: 35px;
+    font-size: 13px;
+}
+.top-search-wrapper {
+    background: rgb(141, 39, 42);
+}
+.top-search-wrapper .text-field:focus {
+    outline:none;
+}
+article.entry-content .wp-post-image{
+    width: 100%;
+}
+
+dd.variation-Size{
+    width: 60%;
+}
+.tweets-feed a{
+    color: rgba(163,68,62,1);
+}
+.tweets-feed .date a{
+    color: #000;
+}
+footer #s{
+    background-color:#333 !important;
+    border: none;
+    color: #e3e3e3;
+}
+footer #searchsubmit{
+    display:none;
+}
+.the-grid-list ul li .item-head h3.title a{
+    font-size: 18px;
+}
+.value-rating{
+    width: 80px;    
+}
+
+#TB_window {
+    position:absolute !important;
+}
+#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar>a img {
+    border:none;
+}
