@@ -1,0 +1,48 @@
+.wpml-language-switcher {
+	float: left;
+	position: relative;
+}
+
+.wpml-language-switcher .actived-language a {
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 10px;
+}
+
+.wpml-language-switcher .language-flag img {
+	vertical-align: middle; 
+	padding-right: 8px;
+	margin-top: -1px;
+}
+
+.wpml-language-switcher ul {
+	list-style: none;
+	margin: 0;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 180px;
+	height: auto;
+	-webkit-box-shadow:  2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+	box-shadow:  2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wpml-language-switcher ul li a {
+	display: block;
+	padding: 0 10px;
+	height: 33px;
+	line-height: 33px;
+	-webkit-transition: background-color .5s, color .5s;
+	-moz-transition: background-color .5s, color .5s;
+	-o-transition: background-color .5s, color .5s;
+	-ms-transition: background-color .5s, color .5s;
+	transition: background-color .5s, color .5s;
+}
+
+.icl_languages_selector img  {
+	vertical-align: middle;
+	margin-top: -5px;
+}

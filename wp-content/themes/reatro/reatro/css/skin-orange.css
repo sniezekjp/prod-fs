@@ -1,0 +1,1176 @@
+/* #Common
+================================================== */
+::-moz-selection { 
+	color: #FFF; 
+	background: #F15A23;
+}
+
+::selection { 
+	color: #FFF; 
+	background: #F15A23; 
+}
+
+hr { 
+	border-top: 1px solid #CCC; 
+}
+
+ins { 
+	background: #FFFF99; 
+	color: #000; 
+}
+
+mark { 
+	background: #FFFF00; 
+	color: #000; 
+}
+
+body { 
+	color: #555;
+	background: #F2F2F2;
+}
+
+body .rows {
+	background: #FFF;
+}
+
+a { color: #000; }
+a:hover { color: #F15A23; }
+
+.entry-content a { color: #F15A23; }
+.entry-content a:hover { color: #000; }
+
+h1, h2, h3, h4, h5, h6, dl dt, b, strong  { color: #000; }
+
+table {
+	border: 1px solid #CCC;
+	border-bottom: none;
+	border-right: none;
+}
+
+table th,
+table td {
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+table th {
+	color: #000;
+}
+
+.sidebar-left .inner { 
+	border-right: 1px solid #CCC; 
+}
+
+.sidebar-right .inner { 
+	border-left: 1px solid #CCC;
+}
+
+.the-not-posts,
+.nopassword {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.img-hover .zoom {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.img-hover .zoom:hover {
+	box-shadow: 0 0 0 0 rgba(241,90,35,0.5);
+	-o-box-shadow: 0 0 0 0 rgba(241,90,35,0.5);
+	-moz-box-shadow: 0 0 0 0 rgba(241,90,35,0.5);
+	-webkit-border-shadow: 0 0 0 0 rgba(241,90,35,0.5);
+}
+
+.nicescroll-rails div {
+	background: #F15A23 !important;
+}
+
+.button-dark,
+.button-active:hover,
+.button-light:hover,
+a.more-link:hover {
+	background: #000;
+	color: #FFF;
+}
+
+.button-active,
+.button-dark:hover,
+a.more-link {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.button-light {
+	background: #CCC;
+	color: #FFF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+	color: #AAA;
+	border: 1px solid #CCC;
+	background: #FFF;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	color: #333;
+	border: 1px solid #BBB;
+	background: #F5F5F5;
+}
+
+input[type="submit"],
+button[type="submit"] {
+	background: #000;
+	color: #FFF;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.customSelect {
+	border: 1px solid #CCC;
+	padding: 8px 15px;
+}
+
+.customSelect.customSelectHover {
+	border: 1px solid #BBB;
+}
+
+
+
+
+/* #Header
+================================================== */
+/*Top Widgets Area*/
+a.top-widgets-area-switch {
+	background-color: rgba(241,90,35,1);
+	color: #FFF;
+}
+
+a.top-widgets-area-switch:hover {
+	background-color: rgba(241,90,35,0.9); 
+}
+
+.ie8 a.top-widgets-area-switch {
+	background-color: #F15A23;
+	color: #FFF;
+}
+
+
+/*Topbar*/
+.site-topbar {
+	background: #000;
+}
+
+
+/*Social Icons*/
+.top-social-icons a {
+	color: #CCC;
+}
+
+.top-social-icons a:hover {
+	color: #FFF;
+	background: #F15A23;
+}
+
+.bottom-social-icons a {
+	color: #F15A23;
+}
+
+.bottom-social-icons a:hover {
+	color: #FFF;
+	background: #F15A23;
+}
+
+.social-icons .tip {
+	background: #000;
+}
+
+
+/*Top Search*/
+.top-search-bt {
+	color: #CCC;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+}
+
+.top-search-bt:hover {
+	color: #FFF;
+}
+
+.top-search-wrapper {
+	background: #F15A23;
+}
+
+.top-search-wrapper .text-field,
+.top-search-wrapper .text-field:focus {
+	color: #FFF;
+}
+
+
+
+/*Logo*/
+.site-logo .tagline {
+	color: #999;
+}
+
+
+
+
+/*Menu*/
+.site-menu {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+#top-menu ul li a {
+	color: #000;
+}
+
+#top-menu ul li.selected a,
+#top-menu ul li.current-page a {
+	color: #F15A23; 
+}
+
+#top-menu ul li a:hover {
+	color: #F15A23; 
+}
+
+#top-menu ul li ul {
+	background: #F9F9F9;
+	border-bottom: 1px solid #CCC;
+	border-top: 3px solid #F15A23;
+}
+
+#top-menu ul li ul li { 
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+#top-menu ul li ul li a,
+#top-menu ul li.selected ul li a {
+	color: #000;
+}
+
+#top-menu ul li ul li a:hover { 
+	background: #F2F2F2;
+	color: #F15A23; 
+}
+
+
+/*Responsive Menu*/
+.responsive-menu {
+	background: #F9F9F9;
+}
+
+.responsive-menu ul li a {
+	border-bottom: 1px solid #DDD;
+}
+
+.responsive-menu ul li a:hover {
+	background-color: #F2F2F2;
+}
+
+a.responsive-menu-switch {
+	border: 1px solid #CCC;
+	background: #F9F9F9;
+}
+
+
+/*Page Header*/
+.site-page-header.has-line {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+}
+
+.site-page-header .entry-desc {
+	color: #999;
+}
+
+
+/*Sticky header*/
+.is-sticky .site-logo,
+.is-sticky .site-menu {
+	background: #FFF;
+}
+
+
+
+
+
+/* #Footer
+================================================== */
+.site-bottom {
+	background: #000;
+	color: #CCC;
+}
+
+.site-bottom.has-line {
+	border-top: 1px solid #0F0F0F;
+}
+
+.site-bottom a {
+	color: #F15A23; 
+}
+
+.site-bottom-menu {
+	background: #000;
+}
+
+.site-bottom-menu.has-line {
+	border-bottom: 1px solid #0F0F0F;
+}
+
+#bottom-menu ul li a {
+	color: #CCC;
+}
+
+#bottom-menu ul li a:hover {
+	color: #F15A23; 
+}
+
+
+
+
+/* #Widgets
+================================================== */
+
+
+/*Top Widgets*/
+.top-widgets-area {
+	background: #222;
+}
+
+.top-widgets-area,
+.top-widgets-area a,
+.top-widgets-area .widget-contact-details strong {
+	color: #CCC;
+}
+
+.top-widgets-area a:hover {
+	color: #F15A23; 
+}
+
+.top-widgets-area .widget h3 {
+	color: #F15A23; 
+}
+
+.top-widgets-area .widget_tag_cloud .tagcloud a {
+	border: 1px solid #444;
+}
+
+.top-widgets-area .widget_tag_cloud .tagcloud a:hover {
+	border: 1px solid #F15A23;
+}
+
+.top-widgets-area .widget_calendar #wp-calendar,
+.top-widgets-area .widget_calendar #wp-calendar th,
+.top-widgets-area .widget_calendar #wp-calendar td {
+	border-color: #444;
+}
+
+.top-widgets-area .widget-social-icons a {
+	border: 1px solid #444;
+}
+
+.top-widgets-area .widget-social-icons a:hover {
+	border: 1px solid #F15A23;
+}
+
+
+
+/*Side Widgets*/
+.side-widgets-area .widget h3 {
+	border-bottom: 3px solid #000;
+}
+
+.side-widgets-area .widget_tag_cloud .tagcloud a {
+	border: 1px solid #CCC;
+}
+
+.side-widgets-area .widget_tag_cloud .tagcloud a:hover {
+	border: 1px solid #F15A23;
+}
+
+.side-widgets-area .widget_categories ul li,
+.side-widgets-area .widget_pages ul li,
+.side-widgets-area .widget_archive ul li,
+.side-widgets-area .widget_links ul li,
+.side-widgets-area .widget_meta ul li,
+.side-widgets-area .widget_product_categories ul li,
+.side-widgets-area .widget_login ul li,
+.side-widgets-area .widget_layered_nav ul li,
+.side-widgets-area .widget_recent_entries ul li,
+.side-widgets-area .widget_recent_comments ul li,
+.side-widgets-area .widget-post li,
+.side-widgets-area .widget-contact-details li {
+	border-bottom: 1px solid #CCC;
+}
+
+.side-widgets-area .widget-contact-details li .icon {
+	color: #999;
+}
+
+.side-widgets-area .widget_categories ul li {
+	color: #777;
+}
+
+.side-widgets-area .widget-social-icons a {
+	border: 1px solid #CCC;
+}
+
+.side-widgets-area .widget-social-icons a:hover {
+	border: 1px solid #F15A23;
+}
+
+.side-widgets-area .widget_nav_menu ul li a {
+	border: 1px solid #DDD;
+	color: #777;
+}
+
+.side-widgets-area .widget_nav_menu ul li a:hover {
+	color: #F15A23;
+}
+
+.side-widgets-area .widget_nav_menu ul li.current-menu-item a .current-separate,
+.side-widgets-area .widget_nav_menu ul li.current_page_item a .current-separate {
+	background: #000;
+}
+
+
+
+/*Bottom Widgets*/
+.bottom-widgets-area {
+	background: #000;
+}
+
+.bottom-widgets-area,
+.bottom-widgets-area a,
+.bottom-widgets-area .widget-contact-details strong {
+	color: #CCC;
+}
+
+.bottom-widgets-area a:hover {
+	color: #F15A23; 
+}
+
+.bottom-widgets-area .widget h3 {
+	color: #F15A23;
+}
+
+.bottom-widgets-area .widget_tag_cloud .tagcloud a {
+	border: 1px solid #222;
+}
+
+.bottom-widgets-area .widget_tag_cloud .tagcloud a:hover {
+	border: 1px solid #F15A23;
+}
+
+.bottom-widgets-area .widget_calendar #wp-calendar,
+.bottom-widgets-area .widget_calendar #wp-calendar th,
+.bottom-widgets-area .widget_calendar #wp-calendar td {
+	border-color: #222;
+}
+
+.bottom-widgets-area .widget-social-icons a {
+	border: 1px solid #222;
+}
+
+.bottom-widgets-area .widget-social-icons a:hover {
+	border: 1px solid #F15A23;
+}
+
+
+
+
+
+/* #Shortcodes
+================================================== */
+
+/*Simple Buttons*/
+.shortcode-hr {
+	border-top: 1px solid #CCC;
+}
+
+
+/*Price Table*/
+.shortcode-price-table .table-item .inner {
+	border: 1px solid #CCC;
+}
+
+.shortcode-price-table.no-margin .inner {
+	border-left: none;
+}
+
+.shortcode-price-table.no-margin .first .inner {
+	border-left: 1px solid #CCC;
+}
+
+.shortcode-price-table .table-item .price {
+	background: #656870;
+}
+
+.shortcode-price-table .table-item .content li {
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.shortcode-price-table .table-item .content li:last-child {
+	border: none;
+}
+
+.shortcode-price-table .table-item .btn {
+	background: #F9F9F9;
+	border-top: 1px solid #CCC;
+}
+
+.shortcode-price-table .table-item.active .price {
+	background: #F15A23;
+}
+
+
+/*Icon Box*/
+.shortcode-icon-box .icon-box-item .inner {
+	border: 1px solid #CCC;
+}
+
+.shortcode-icon-box .icon-box-item:hover .inner {
+	background: #F9F9F9;
+}
+
+.shortcode-icon-box.no-margin .inner {
+	border-left: none;
+}
+
+.shortcode-icon-box.no-margin .first .inner {
+	border-left: 1px solid #CCC;
+}
+
+.shortcode-icon-box .icon-box-item .icon i {
+	background-color: #000;
+	color: #FFF;
+}
+
+.shortcode-icon-box .icon-box-item:hover .icon i {
+	background-color: #F15A23;
+	color: #FFF;
+}
+
+
+/*Accordion*/
+.shortcode-accordion .acc-item,
+.shortcode-toggle .tog-item {
+	border-bottom: 1px solid #CCC;
+}
+
+.shortcode-accordion .acc-item .tog .icon,
+.shortcode-toggle .tog-item .tog .icon {
+	background: #000;
+	color: #FFF;
+}
+
+.shortcode-accordion .acc-item .tog.active .icon,
+.shortcode-accordion .acc-item .tog:hover .icon,
+.shortcode-toggle .tog-item .tog.active .icon,
+.shortcode-toggle .tog-item .tog:hover .icon {
+	background: #F15A23;
+	color: #FFF;
+}
+
+
+
+/*Tab*/
+.shortcode-tab .tabs {
+	border-bottom: 1px solid #CCC;
+}
+
+.shortcode-tab .tabs li.tab a {
+	border: 1px solid #DDD;
+	border-bottom: 1px solid #CCC;
+	color: #777;
+}
+
+.shortcode-tab .tabs li.tab a:hover  {
+	color: #F15A23;
+}
+
+.shortcode-tab .tabs li.tab a.active {
+	border: 1px solid #CCC;
+	border-bottom: 1px solid #FFF;
+	color: #000;
+}
+
+.shortcode-tab .tabs li.tab a .separate {
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+}
+
+.shortcode-tab .tabs li.tab a.active .separate {
+	background: #000;
+	border-bottom: 1px solid #000;
+}
+
+.shortcode-tab .tabs-content {
+	border: 1px solid #CCC;
+	border-top: none;
+}
+
+.shortcode-left-tab .tabs li.tab a {
+	border: 1px solid #DDD;
+	border-right: none;
+	color: #777;
+}
+
+.shortcode-left-tab .tabs li.tab a:hover  {
+	color: #F15A23;
+}
+
+.shortcode-left-tab .tabs li.tab a.active {
+	border: 1px solid #CCC;
+	border-right: none;
+	color: #000;
+}
+
+.shortcode-left-tab .tabs li.tab a.active .separate {
+	background: #000;
+}
+
+.shortcode-left-tab .tabs li.tab a.active .current-separate {
+	border-right: 1px solid #FFF;
+}
+
+.shortcode-left-tab .tabs-content {
+	border: 1px solid #CCC;
+	color: #777;
+}
+
+
+/*Message Box*/
+.shortcode-message-box .message-box,
+.shortcode-message-box .message-box a {
+	color: #FFF;
+}
+
+.shortcode-message-box .message-box a:hover {
+	text-decoration: underline;
+}
+
+.shortcode-message-box .message-box a.close:hover {
+	text-decoration: none;
+	color: #DDD;
+}
+
+.shortcode-message-box .default {
+	background: #656870;
+}
+
+.shortcode-message-box .success {
+	background: #8AA33E;
+}
+
+.shortcode-message-box .warning {
+	background: #F15A23;
+}
+
+.shortcode-message-box .notice {
+	background: #B8AB00;
+}
+
+
+
+
+/*Gmap*/
+.shortcode-gmap .map-controls li a {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.shortcode-gmap .map-controls li a:hover {
+	background: #000;
+	color: #FFF;
+}
+
+
+
+
+/*Icons*/
+.shortcode-icon {
+	color: #000;
+}
+
+
+
+
+/*Social Icons*/
+.shortcode-social-icons a {
+	background: #000;
+	color: #FFF;
+}
+
+.shortcode-social-icons a:hover {
+	background: #F15A23;
+	color: #FFF;
+}
+
+
+
+/*Team Members*/
+.shortcode-team-members .role {
+	color: #F15A23;
+}
+
+
+
+/*Testimonial*/
+.shortcode-testimonial-carousel .testimonial-carousel li h3.name {
+	border-top: 1px solid #CCC;
+}
+
+.shortcode-testimonial-carousel .testimonial-carousel li .role,
+.shortcode-testimonial .role {
+	color: #F15A23;
+}
+
+.shortcode-testimonial-carousel .bx-wrapper .bx-controls-direction a {
+	border: 2px solid #CCC;
+	color: #CCC;
+}
+
+.shortcode-testimonial-carousel .bx-wrapper .bx-controls-direction a:hover {
+	border: 2px solid #F15A23;
+	color: #F15A23;
+}
+
+
+
+/*Latest Blog*/
+.shortcode-latest-blog .entry-date {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.shortcode-latest-blog .the-last-loop li {
+	border-bottom: 1px solid #CCC;
+}
+
+.shortcode-latest-blog .the-last-loop li:last-child {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*Progress Bar*/
+.shortcode-progress-bar .bar {
+	background: #F0F0F0;
+}
+
+.shortcode-progress-bar .percentage {
+	background: #333;
+}
+
+.shortcode-progress-bar .title {
+	color: #000;
+}
+
+.shortcode-progress-bar .title span {
+	color: #F15A23;
+}
+
+
+
+
+/*Number*/
+.shortcode-number .count {
+	color: #F15A23;
+}
+
+
+
+
+/*Slogan*/
+.shortcode-slogan {
+	background: #000;
+}
+
+.shortcode-slogan .slogan-wrap {
+	border: 2px solid #FFF;
+	text-align: center;
+	color: #FFF;
+}
+
+.shortcode-slogan .slogan-wrap h5.title {
+	border-bottom: 2px solid #FFF;
+}
+
+.shortcode-slogan .slogan-wrap h5.title,
+.shortcode-slogan .slogan-wrap h5.title a {
+	color: #FFF;
+}
+
+.shortcode-slogan .slogan-wrap h5.title a:hover {
+	color: #DDD;
+}
+
+
+
+
+/*Tagline*/
+.shortcode-tagline {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+
+
+
+/*Twitter Carousel*/
+.shortcode-twitter-carousel .icon {
+	color: #AAA;
+}
+
+.shortcode-twitter-carousel .bx-wrapper .bx-controls-direction a {
+	border: 2px solid #CCC;
+	color: #CCC;
+}
+
+.shortcode-twitter-carousel .bx-wrapper .bx-controls-direction a:hover {
+	border: 2px solid #F15A23;
+	color: #F15A23;
+}
+
+
+
+
+/*Ads*/
+.shortcode-ads .ad-item .title span {
+	background: #FFF;
+}
+
+
+
+
+/* #Post List
+================================================== */
+
+/*Filter Grid List*/
+.the-grid-list.top-grid .filter-menu ul.filter li a {
+	background-color: #000;
+	color: #FFF;
+}
+
+.the-grid-list.top-grid .filter-menu ul.filter li a.active,
+.the-grid-list.top-grid .filter-menu ul.filter li a:hover {
+	background-color: #F15A23;
+	color: #FFF;
+}
+
+.the-grid-list.left-grid .filter-menu ul.filter,
+.the-faq-list .filter-menu ul.filter {
+	border-right: 1px solid #CCC;
+}
+
+.the-grid-list.left-grid .filter-menu ul.filter li,
+.the-faq-list .filter-menu ul.filter li {
+	border-bottom: 1px solid #CCC;
+}
+
+.the-grid-list.left-grid .filter-menu ul.filter li:first-of-type,
+.the-faq-list .filter-menu ul.filter li:first-of-type {
+	border-top: 3px solid #000;
+}
+
+
+
+/*Post Carousel & Related Posts & Related Works*/
+.the-carousel-list .bx-wrapper .bx-controls-direction a {
+	border: 2px solid #CCC;
+	color: #CCC;
+}
+
+.the-carousel-list .bx-wrapper .bx-controls-direction a:hover {
+	border: 2px solid #F15A23;
+	color: #F15A23;
+}
+
+.related-works,
+.related-posts {
+	border-top: 1px solid #CCC;
+}
+
+.related-posts li .entry-meta .date {
+	color: #000;
+}
+
+.related-posts li .entry-meta .date a {
+	color: #777;
+}
+
+.related-posts li .entry-meta .date a:hover {
+	color: #F15A23; 
+}
+
+
+
+
+
+/*Common Grid List*/
+.the-grid-list ul li .item-head .cats,
+.the-grid-list ul li .item-head .cats a {
+	color: #F15A23; 
+}
+
+.the-grid-list ul li .item-head h3.title a:hover,
+.the-grid-list ul li .item-head .cats a:hover {
+	color: #000;
+}
+
+.the-grid-list ul li .item-head h3.title a:hover {
+	text-decoration: underline;
+}
+
+
+
+/*Blog Carousel & Blog Grid*/
+.the-blog-list ul li.post-item .item-content .date,
+.the-grid-list ul li .item-head-blog .date {
+	color: #777;
+}
+
+
+
+/*Post Blog*/
+.post-blog .post-item .entry-meta,
+.post-full-blog .the-blog-list li.post-item header.entry-meta,
+.post-archive ul li.post-item .entry-meta .meta,
+.shortcode-latest-blog .cats-link {
+	color: #000;
+}
+
+.post-blog .post-item .entry-meta a,
+.post-full-blog .the-blog-list li.post-item header.entry-meta a,
+.post-archive ul li.post-item .entry-meta .meta a,
+.shortcode-latest-blog .entry-box .cats-link a {
+	color: #777;
+}
+
+.post-blog .post-item .entry-meta a:hover,
+.post-full-blog .the-blog-list li.post-item header.entry-meta a:hover,
+.post-archive ul li.post-item .entry-meta .meta a:hover,
+.shortcode-latest-blog .entry-box .cats-link a:hover {
+	color: #F15A23; 
+}
+
+.post-blog .post-item header.entry-meta,
+.post-full-blog .the-blog-list li.post-item .entry-title {
+	border-bottom: 1px solid #CCC;
+}
+
+
+
+/*Search*/
+.post-search ul li.post-item header.entry-meta {
+	color: #000;
+}
+
+.post-search ul li.post-item header.entry-meta a {
+	color: #777;
+}
+
+.post-search ul li.post-item header.entry-meta a:hover {
+	color: #F15A23; 
+}
+
+
+
+/*Post Archive*/
+.post-archive ul li.post-item {
+	border-bottom: 1px solid #CCC;
+}
+
+
+
+/*Contact Page*/
+.contact-page .wpcf7 .text-wrap .lable {
+	color: #000;
+}
+
+.contact-page .wpcf7 span.wpcf7-not-valid-tip,
+.contact-page .error-message,
+.contact-page div.wpcf7-validation-errors,
+.contact-page div.wpcf7-mail-sent-ng,
+.contact-page div.wpcf7-spam-blocked {
+	background: #F15A23; 
+	color: #FFF;
+}
+
+.contact-page #success-page,
+.contact-page div.wpcf7-mail-sent-ok {
+	background: #8AA33E;
+	color: #FFF;
+}
+
+
+
+/*Coming soon page*/
+#page-coming-soon,
+#page-coming-soon .site-footer {
+	background: #F2F2F2;
+}
+
+#page-coming-soon .countdown .clock .time {
+	background: #EEE;
+	color: #999;
+}
+
+#page-coming-soon .countdown .clock .text {
+	color: #000;
+}
+
+#page-coming-soon .bottom-social-icons a {
+	color: #BBB;
+}
+
+#page-coming-soon .bottom-social-icons a:hover {
+	color: #FFF;
+	background: #F15A23;
+}
+
+
+
+
+
+/* #Pagination
+================================================== */
+.pagination,
+.post-navigation {
+	border-top: 1px solid #CCC;
+}
+
+.pagination .pagin a {
+	background: #000;
+	color: #FFF;
+}
+
+.pagination .pagin span.current,
+.pagination .pagin a:hover {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.pagination .prev span.disabled,
+.pagination .next span.disabled {
+	color: #999;
+}
+
+.post-pagenation ul li a {
+	border: 2px solid #CCC;
+	color: #CCC;
+}
+
+.post-pagenation ul li a:hover {
+	border: 2px solid #F15A23;
+	color: #F15A23;
+}
+
+
+
+
+
+
+/* #Single Page
+================================================== */
+.post-portfolio .full .full-content {
+	border-right: 1px solid #CCC;
+}
+
+.post-portfolio h1.entry-title {
+	border-bottom: 1px solid #CCC;
+}
+
+.post-portfolio .entry-meta .row a {
+	color: #777;
+}
+
+.post-portfolio .entry-meta .row a:hover {
+	color: #F15A23;
+}
+
+.post-portfolio .entry-meta .row strong {
+	color: #000;
+}
+
+#comments,
+#respond{
+	border-top: 1px solid #CCC;
+}
+
+.commentlist li.comment .entry-comment {
+	border-bottom: 1px solid #CCC;
+}
+
+.commentlist li.comment .comment-action a {
+	background: #A1A1A1;
+	color: #FFF;
+}
+
+.commentlist li.comment .comment-action a:hover {
+	background: #F15A23;
+	color: #FFF;
+}
+
+.commentlist li.comment .comment-meta .fn,
+.commentlist li.comment .comment-meta .fn a {
+	color: #000;
+}
+
+.commentlist li.comment .comment-meta .fn a:hover {
+	color: #F15A23;
+}
+
+.commentlist li.comment .comment-awaiting-moderation {
+	color: #F15A23;
+}
+
+
+
+
+
+
+
+
+
+/*Common For Max 480*/
+@media only screen and (max-width: 767px) {
+
+	.shortcode-price-table.no-margin .inner,
+	.shortcode-icon-box.no-margin .inner {
+		border-left: 1px solid #CCC;
+	}
+
+	.shortcode-tab .tabs li.tab a.active {
+		border-bottom: 1px solid #CCC;
+	}
+
+	.shortcode-left-tab .tabs li.tab a,
+	.woocommerce-page .woocommerce-tabs .tabs li a {
+		border-right: 1px solid #DDD;
+	}
+
+	.shortcode-left-tab .tabs li.tab a.active,
+	.woocommerce-page .woocommerce-tabs .tabs li.active a {
+		border-right: 1px solid #CCC;
+	}
+
+}

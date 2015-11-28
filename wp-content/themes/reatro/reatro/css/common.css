@@ -1,0 +1,185 @@
+/* #Reset
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; 
+}
+
+
+
+/* #Basic
+================================================== */
+/*Fix the clear issue*/
+.hide { display: none; }
+.clear { clear: both; display: block; font-size: 0; height: 0; line-height: 0; width:100%;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } 
+.clearfix { display: inline-block; } /* Hide from IE Mac \*/ 
+.clearfix { display: block; } /* End hide from IE Mac */ 
+.clear-fixed { height: 100%; overflow: hidden; }
+
+/* Links & Image*/
+a, a:hover, a:focus { text-decoration: none; }
+a:hover, a:active, a:focus { outline: none; }
+a img { border: none; }
+img { vertical-align: top; }
+
+/*Html Tags*/
+html { font-size: 62.5%; }
+body { line-height: 1; }
+ul, ol { list-style: none; }
+abbr[title] { border-bottom: 1px dotted; }
+abbr:hover { cursor: help; }
+b, strong { font-weight: bold; }
+i, em, dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; margin: 1em 0; padding: 0; }
+ins { text-decoration: none; }
+mark { font-style: italic; font-weight: bold; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+blockquote, q { quotes: none; }
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after { content: ''; content: none; }
+small { font-size: 85%; }
+big { font-size: 135%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+/*Button, input, textarea*/
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle;  	border-radius: 0; -moz-border-radius: 0;  -webkit-border-radius: 0;}
+button, input { line-height: normal; *overflow: visible; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/*Tables*/
+table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+table th{ font-weight: bold; }
+
+/*Media*/
+img { max-width: 100%; height: auto; }
+.shortcode-gmap img { max-width: none; }
+img { -ms-interpolation-mode: bicubic; }
+object, embed { max-width: 100%; }
+
+
+
+/* #12 Column Grid
+================================================== */
+.container { 
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.inner,
+.outer {
+	width: auto;
+	max-width: none; 
+	min-width: 0;
+}
+
+.inner {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.outer {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.column { 
+	float: left; 
+	min-height: 1px;
+}
+
+.rows { 
+	max-width: 100%; 
+	margin: 0 auto;
+}
+
+.boxed .rows { width: 1000px; }
+.wide .rows { width: 100%; }
+
+.rows .one { width: 8.333333%; }
+.rows .two { width: 16.666666%; }
+.rows .three { width: 25%; }
+.rows .four { width: 33.31%; }
+.rows .five { width: 41.666666%; }
+.rows .six { width: 50%; }
+.rows .seven { width: 58.333333%; }
+.rows .eight { width: 66.6666666%; }
+.rows .nine { width: 75%; }
+.rows .ten { width: 83.333333%; }
+.rows .eleven { width: 91.666666%; }
+.rows .twelve { width: 100%; }
+
+.sidebar-left .inner { 
+	margin-right: 30px;
+	padding-right: 39px;
+}
+
+.sidebar-right .inner { 
+	margin-left: 30px;
+	padding-left: 39px;
+}
+
+.post-portfolio .full .full-excerpt,
+.post-portfolio .half .half-content {
+	padding-left: 20px;
+}
+
+.post-portfolio .full .full-content {
+	padding-right: 40px;
+}
+
+
+
+
+/* #Useful CSS For Layout
+================================================== */
+.pt { padding-top: 80px; }
+.pb { padding-bottom: 80px; }
+.mt { margin-top: 80px; }
+.mb { margin-bottom: 80px; }
+.mt-5 { margin-top: 5px; }
+.mt-10 { margin-top: 10px; }
+.mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
+.mt-25 { margin-top: 25px; }
+.mt-30 { margin-top: 30px; }
+.mt-35 { margin-top: 35px; }
+.mt-40 { margin-top: 40px; }
+.mt-45 { margin-top: 45px; }
+.mt-50 { margin-top: 50px; }
+.mt-55 { margin-top: 55px; }
+.mt-60 { margin-top: 60px; }
+.mt-65 { margin-top: 65px; }
+.mt-70 { margin-top: 70px; }
+.mt-75 { margin-top: 75px; }
+.mt-80 { margin-top: 80px; }
+.mp-5 { margin-bottom: 5px; }
+.mp-10 { margin-bottom: 10px; }
+.mp-15 { margin-bottom: 15px; }
+.mp-20 { margin-bottom: 20px; }
+.mp-25 { margin-bottom: 25px; }
+.mp-30 { margin-bottom: 30px; }
+.mp-35 { margin-bottom: 35px; }
+.mp-40 { margin-bottom: 40px; }
+.mp-45 { margin-bottom: 45px; }
+.mp-50 { margin-bottom: 50px; }
+.mp-55 { margin-bottom: 55px; }
+.mp-60 { margin-bottom: 60px; }
+.mp-65 { margin-bottom: 65px; }
+.mp-70 { margin-bottom: 70px; }
+.mp-75 { margin-bottom: 75px; }
+.mp-80 { margin-bottom: 80px; }

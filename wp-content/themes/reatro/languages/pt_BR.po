@@ -1,0 +1,3665 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reatro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-09 14:30+0800\n"
+"PO-Revision-Date: 2014-03-09 14:39+0800\n"
+"Last-Translator: MattMao <tomattmao@gmail.com>\n"
+"Language-Team: ThemeWoot <themewoot@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: C:/xampp/htdocs/web/wordpress/wp-content/themes/reatro\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"Sorry, but the page you are looking for does not exist. You can try to go to "
+"the Homepage and find your way. "
+msgstr ""
+
+#: comments.php:15
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "%1$s Comments"
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgid "%1$s Comment"
+msgstr ""
+
+#: index.php:36 theme/classes/class-template-blog.php:76
+#: theme/classes/class-template-blog.php:127
+#: theme/classes/class-template-grid.php:91
+#: theme/classes/class-template-grid.php:172
+msgid ""
+"Sorry, there is no posts in the current categories, please add some items in "
+"the dashboard!"
+msgstr ""
+
+#: page.php:31 single.php:42
+msgid "Pages:"
+msgstr ""
+
+#: search.php:58 template-archive.php:56
+msgid "Sorry, there is no posts in for your query."
+msgstr ""
+
+#: single.php:29 single.php:45 templates/content/loop-archive.php:25
+#: templates/content/loop-blog-default.php:16
+#: templates/content/loop-blog-default.php:31
+#: templates/content/loop-blog-full.php:18
+#: templates/content/loop-last-latest-blog.php:28
+#: templates/content/loop-top-latest-blog.php:29
+msgid ", "
+msgstr ""
+
+#: single.php:31 templates/content/loop-archive.php:27
+#: templates/content/loop-blog-default.php:18
+#: templates/content/loop-blog-full.php:20
+#: templates/content/loop-last-latest-blog.php:30
+#: templates/content/loop-top-latest-blog.php:31
+#, php-format
+msgid "Posted in: %1$s"
+msgstr ""
+
+#: single.php:35 templates/content/loop-archive.php:31
+#: templates/content/loop-blog-default.php:22
+#: templates/content/loop-blog-full.php:24
+#: templates/content/loop-search.php:15
+#, php-format
+msgid "On: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a>"
+msgstr ""
+
+#: single.php:37 templates/content/loop-blog-default.php:24
+#: templates/content/loop-blog-full.php:26
+#: theme/functions/function-frontend.php:352
+#: woocommerce/myaccount/my-address.php:47
+msgid "Edit"
+msgstr ""
+
+#: single.php:47 templates/content/loop-blog-default.php:33
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: single.php:57 theme/metaboxes/meta-portfolio.php:106
+#: theme/options/theme_opt.php:704
+msgid "Related Posts"
+msgstr ""
+
+#: template-coming-soon.php:60 theme/functions/function-install.php:129
+msgid "Coming Soon"
+msgstr ""
+
+#: template-portfolio.php:14
+msgid ""
+"You have not installed the plugin: Twoot Toolkit, please install the plugin "
+"first."
+msgstr ""
+
+#: templates/content/loop-blog-default.php:28
+#: templates/content/loop-blog-full.php:32
+#: templates/content/loop-top-latest-blog.php:35
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: templates/content/loop-blog-default.php:36
+msgid "Leave a comment"
+msgstr ""
+
+#: templates/content/loop-blog-default.php:36
+msgid "1 Comment"
+msgstr ""
+
+#: templates/content/loop-blog-default.php:36
+msgid "% Comments"
+msgstr ""
+
+#: templates/content/loop-related-posts.php:24
+#, php-format
+msgid "Posted on: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a>"
+msgstr ""
+
+#: templates/single-portfolio.php:53 templates/single-portfolio.php:91
+msgid "<i class=\"twoot-icon-left-open\"></i>"
+msgstr ""
+
+#: templates/single-portfolio.php:55 templates/single-portfolio.php:93
+msgid "<i class=\"twoot-icon-right-open\"></i>"
+msgstr ""
+
+#: templates/single-portfolio.php:108 theme/options/theme_opt.php:827
+msgid "Related Works"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-best-sellers.php:31
+msgid "Display a list of your best selling products on your site."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-best-sellers.php:33
+msgid "WooCommerce Best Sellers"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-best-sellers.php:71
+msgid "Best Sellers"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-best-sellers.php:189
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:145
+#: theme-woocommerce/widgets/class-wc-widget-featured-products.php:176
+#: theme-woocommerce/widgets/class-wc-widget-onsale.php:178
+#: theme-woocommerce/widgets/class-wc-widget-random-products.php:137
+#: theme-woocommerce/widgets/class-wc-widget-recent-products.php:172
+#: theme-woocommerce/widgets/class-wc-widget-recently-viewed.php:167
+#: theme-woocommerce/widgets/class-wc-widget-top-rated-products.php:165
+#: theme/widgets/contact-details.php:52
+msgid "Title:"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-best-sellers.php:192
+#: theme-woocommerce/widgets/class-wc-widget-featured-products.php:179
+#: theme-woocommerce/widgets/class-wc-widget-onsale.php:181
+#: theme-woocommerce/widgets/class-wc-widget-random-products.php:142
+#: theme-woocommerce/widgets/class-wc-widget-recent-products.php:175
+#: theme-woocommerce/widgets/class-wc-widget-recently-viewed.php:170
+#: theme-woocommerce/widgets/class-wc-widget-top-rated-products.php:168
+msgid "Number of products to show:"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-best-sellers.php:196
+msgid "Hide free products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:34
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:36
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:62
+msgid "Cart"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:77
+#: theme-woocommerce/woo-generator.php:82 theme-woocommerce/woo.php:112
+#: theme-woocommerce/woo.php:181 woocommerce/cart/cart.php:30
+#: woocommerce/myaccount/my-orders.php:37
+#: woocommerce/order/order-details.php:23
+msgid "Total"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:77
+#: theme-woocommerce/woo-generator.php:82 theme-woocommerce/woo.php:112
+#: theme-woocommerce/woo.php:181
+msgid "Subtotal"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:91
+#: theme-woocommerce/woo-generator.php:102 theme-woocommerce/woo.php:132
+#: theme-woocommerce/woo.php:195
+msgid "Quantity:"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:100
+#: theme-woocommerce/woo-generator.php:112 theme-woocommerce/woo.php:142
+#: theme-woocommerce/woo.php:204
+msgid "View Cart"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:101
+#: theme-woocommerce/woo-generator.php:51
+#: theme-woocommerce/woo-generator.php:113 theme-woocommerce/woo.php:143
+#: theme-woocommerce/woo.php:205
+msgid "Checkout"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:105
+#: theme-woocommerce/woo-generator.php:117
+msgid "No products in the cart."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-cart.php:149
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-featured-products.php:35
+msgid "Display a list of featured products on your site."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-featured-products.php:37
+msgid "WooCommerce Featured Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-featured-products.php:75
+msgid "Featured Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-onsale.php:31
+msgid "Display a list of your on-sale products on your site."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-onsale.php:33
+msgid "WooCommerce On-sale"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-onsale.php:70
+msgid "On Sale"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-random-products.php:24
+msgid "WooCommerce Random Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-random-products.php:27
+msgid "Display a list of random products on your site."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-random-products.php:46
+msgid "Random Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-random-products.php:148
+#: theme-woocommerce/widgets/class-wc-widget-recent-products.php:179
+msgid "Show hidden product variations"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-recent-products.php:31
+msgid "Display a list of your most recent products on your site."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-recent-products.php:33
+msgid "WooCommerce Recent Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-recent-products.php:70
+msgid "New Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-recently-viewed.php:31
+msgid "Display a list of recently viewed products."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-recently-viewed.php:33
+msgid "WooCommerce Recently Viewed Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-recently-viewed.php:76
+msgid "Recently viewed"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-top-rated-products.php:33
+msgid "Display a list of top rated products on your site."
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-top-rated-products.php:35
+msgid "WooCommerce Top Rated Products"
+msgstr ""
+
+#: theme-woocommerce/widgets/class-wc-widget-top-rated-products.php:72
+msgid "Top Rated Products"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:45
+msgid "Howdy, "
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:47
+msgid "Change Password"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:48
+msgid "Edit Address"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:49
+msgid "View Order"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:50
+msgid "Shopping Cart"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:54
+msgid "Sign Out"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:57
+msgid "Create Account"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:59
+msgid "Sign In"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:81 theme-woocommerce/woo.php:111
+msgid "item"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:81 theme-woocommerce/woo.php:111
+msgid "items"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:86 theme-woocommerce/woo.php:116
+msgid "Cart:"
+msgstr ""
+
+#: theme-woocommerce/woo-generator.php:104 theme-woocommerce/woo.php:134
+#: woocommerce/cart/cart.php:110
+msgid "Remove this item"
+msgstr ""
+
+#: theme-woocommerce/woo.php:90 theme/metaboxes/meta-page.php:26
+#: theme/options/theme_opt.php:70 theme/options/theme_opt.php:890
+#: theme/options/theme_opt.php:895
+msgid "Shop"
+msgstr ""
+
+#: theme/classes/class-option-generator.php:112
+msgid "Version: "
+msgstr ""
+
+#: theme/classes/class-permalink.php:43
+msgid "Portfolio category base"
+msgstr ""
+
+#: theme/classes/class-permalink.php:44
+msgid "Portfolio tag base"
+msgstr ""
+
+#: theme/classes/class-permalink.php:45
+msgid "Portfolio item base"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:48
+msgid "Featured Image"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:49
+#: theme/classes/class-post-types-backend.php:119
+#: theme/shortcodes/tinymce/config.php:17
+#: theme/shortcodes/tinymce/config.php:202
+#: theme/shortcodes/tinymce/config.php:427
+#: theme/shortcodes/tinymce/config.php:513
+#: theme/shortcodes/tinymce/config.php:600
+#: theme/shortcodes/tinymce/config.php:686
+#: theme/shortcodes/tinymce/config.php:1006
+#: theme/shortcodes/tinymce/config.php:1041
+#: theme/shortcodes/tinymce/config.php:1106
+#: theme/shortcodes/tinymce/config.php:1619
+#: theme/shortcodes/tinymce/config.php:1651
+#: theme/shortcodes/tinymce/config.php:1716
+#: theme/shortcodes/tinymce/config.php:1799
+#: theme/shortcodes/tinymce/config.php:1890
+#: theme/shortcodes/tinymce/config.php:1923
+#: theme/shortcodes/tinymce/config.php:2153
+#: theme/shortcodes/tinymce/config.php:2187
+#: theme/shortcodes/tinymce/config.php:2221
+msgid "Title"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:50
+msgid "Categories"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:51
+#: theme/metaboxes/meta-portfolio.php:48
+msgid "Types"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:52
+#: theme/metaboxes/meta-page.php:52 theme/metaboxes/meta-portfolio.php:38
+msgid "Layouts"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:71
+#: theme/metaboxes/meta-portfolio.php:14
+msgid "Half Width"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:72
+#: theme/metaboxes/meta-page.php:16 theme/metaboxes/meta-portfolio.php:15
+msgid "Full Width"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:93
+msgid "No featured image"
+msgstr ""
+
+#: theme/classes/class-post-types-backend.php:118
+#: theme/shortcodes/tinymce/config.php:1413
+#: theme/shortcodes/tinymce/config.php:1467
+#: theme/shortcodes/tinymce/config.php:1532
+msgid "IDs"
+msgstr ""
+
+#: theme/classes/class-template-grid.php:68
+#: theme/classes/class-template-grid.php:149
+msgid "Hi, please make sure that you have installed the plugin:woocommerce."
+msgstr ""
+
+#: theme/classes/class-template-grid.php:177
+msgid "Sorry, the left grid layout do not support the 4 columns."
+msgstr ""
+
+#: theme/classes/class-template-grid.php:242
+msgid "All"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:164
+#: theme/functions/function-backend.php:126
+msgid "Install Required Plugins"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:165
+#: theme/functions/function-backend.php:127
+msgid "Install Plugins"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:166
+#: theme/functions/function-backend.php:128
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:180
+#: theme/classes/class-tgm-plugin-activation.php:518
+#: theme/functions/function-backend.php:140
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:181
+#: theme/classes/class-tgm-plugin-activation.php:1918
+#: theme/functions/function-backend.php:141
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:545
+#: theme/classes/class-tgm-plugin-activation.php:2130
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:573
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:746
+msgid "Dismiss this notice"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1135
+msgid "External Link"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1140
+msgid "Private Repository"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1143
+msgid "Pre-Packaged"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1147
+msgid "WordPress Repository"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1150
+msgid "Required"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1150
+msgid "Recommended"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1153
+msgid "Not Installed"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1155
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1157
+msgid "Not Updated"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1159
+msgid "Active"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1353
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1369
+msgid "Plugin"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1370
+msgid "Source"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1371
+#: theme/shortcodes/tinymce/config.php:135
+#: theme/shortcodes/tinymce/config.php:208
+#: theme/shortcodes/tinymce/config.php:307
+#: theme/shortcodes/tinymce/config.php:692
+#: theme/shortcodes/tinymce/config.php:1112
+#: theme/shortcodes/tinymce/config.php:1216
+#: theme/shortcodes/tinymce/config.php:1320
+#: theme/shortcodes/tinymce/config.php:1830
+msgid "Type"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1372
+#: woocommerce/myaccount/my-orders.php:36
+msgid "Status"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1390
+msgid "Install"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1391
+msgid "Activate"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1901
+msgid "Install package not available."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1902
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1903
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1904
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1905
+msgid "Plugin install failed."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1906
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:1917
+msgid "Plugin activation failed."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2027
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2028
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2028
+#: theme/classes/class-tgm-plugin-activation.php:2037
+msgid "Show Details"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2028
+#: theme/classes/class-tgm-plugin-activation.php:2037
+msgid "Hide Details"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2029
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2030
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2034
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2035
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2036
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2037
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2038
+msgid "All installations have been completed."
+msgstr ""
+
+#: theme/classes/class-tgm-plugin-activation.php:2039
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:200 theme/options/theme_opt.php:13
+#: theme/options/theme_opt.php:597
+msgid "Behance"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:201 theme/options/theme_opt.php:14
+#: theme/options/theme_opt.php:581
+msgid "Dribbble"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:202 theme/options/theme_opt.php:15
+#: theme/options/theme_opt.php:549
+msgid "Facebook"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:203 theme/options/theme_opt.php:16
+#: theme/options/theme_opt.php:573
+msgid "Flickr"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:204
+msgid "500PX"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:205 theme/options/theme_opt.php:18
+#: theme/options/theme_opt.php:557
+msgid "Google+"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:206 theme/options/theme_opt.php:19
+msgid "Linkedin"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:207 theme/options/theme_opt.php:20
+#: theme/options/theme_opt.php:605
+msgid "Instagram"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:208 theme/options/theme_opt.php:21
+#: theme/options/theme_opt.php:589
+msgid "Pinterest"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:209
+msgid "Rss"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:210 theme/options/theme_opt.php:23
+#: theme/options/theme_opt.php:653
+msgid "Soundcloud"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:211 theme/options/theme_opt.php:24
+#: theme/options/theme_opt.php:613
+msgid "Tumblr"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:212 theme/options/theme_opt.php:25
+#: theme/options/theme_opt.php:541
+msgid "Twitter"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:213
+#: theme/metaboxes/meta-video.php:32 theme/options/theme_opt.php:26
+#: theme/options/theme_opt.php:621
+msgid "Vimeo"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:214
+#: theme/metaboxes/meta-video.php:31 theme/options/theme_opt.php:27
+#: theme/options/theme_opt.php:629
+msgid "Youtube"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:287
+msgid "Enter your keywords here..."
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:345
+msgid "Archive for date:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:349
+msgid "Archive for month:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:353
+msgid "Archive for year:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:375
+msgid "search results for:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:379
+msgid "search result for:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:386
+msgid "Search results for:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:390
+msgid "To search the site please enter a valid term"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:398
+msgid "Author Archive"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:400
+msgid "for:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:405
+msgid "Tag Archive for:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:416
+msgid "Archives"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:421
+#: theme/functions/function-common.php:66 theme/metaboxes/meta-page.php:23
+#: theme/metaboxes/meta-page.php:32
+msgid "Page"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:495
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:511
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:868
+msgid "Client:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:871
+#: woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:874
+msgid "Categories:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:877
+msgid "Tags:"
+msgstr ""
+
+#: theme/classes/class-theme-generator.php:880
+msgid "Launch Project &raquo;"
+msgstr ""
+
+#: theme/functions/function-backend.php:43
+msgid "ID"
+msgstr ""
+
+#: theme/functions/function-backend.php:129
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: theme/functions/function-backend.php:142
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: theme/functions/function-common.php:49
+msgid "<span class=\"meta-nav\">&lsaquo;</span> Older posts"
+msgstr ""
+
+#: theme/functions/function-common.php:50
+msgid "Newer posts <span class=\"meta-nav\">&rsaquo;</span>"
+msgstr ""
+
+#: theme/functions/function-common.php:67
+#: theme/functions/function-install.php:49 theme/metaboxes/meta-page.php:24
+#: theme/metaboxes/meta-page.php:33 theme/options/theme_opt.php:60
+#: theme/options/theme_opt.php:671
+msgid "Blog"
+msgstr ""
+
+#: theme/functions/function-common.php:68
+#: theme/functions/function-install.php:39 theme/metaboxes/meta-page.php:25
+#: theme/metaboxes/meta-page.php:34 theme/options/theme_opt.php:65
+#: theme/options/theme_opt.php:753
+msgid "Portfolio"
+msgstr ""
+
+#: theme/functions/function-common.php:69 theme/metaboxes/meta-page.php:27
+#: theme/metaboxes/meta-page.php:35
+msgid "Search"
+msgstr ""
+
+#: theme/functions/function-frontend.php:203
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: theme/functions/function-frontend.php:313
+msgid "Pingback:"
+msgstr ""
+
+#: theme/functions/function-frontend.php:313
+msgid "(Edit)"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: theme/functions/function-frontend.php:338
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: theme/functions/function-frontend.php:353
+msgid "Reply"
+msgstr ""
+
+#: theme/functions/function-frontend.php:383
+#: theme/shortcodes/tinymce/config.php:979
+#: theme/shortcodes/tinymce/config.php:1967
+#: theme/shortcodes/tinymce/config.php:2007
+#: theme/shortcodes/tinymce/config.php:2051
+#: woocommerce/single-product-reviews.php:78
+msgid "Name"
+msgstr ""
+
+#: theme/functions/function-frontend.php:387
+#: woocommerce/single-product-reviews.php:80
+msgid "Email"
+msgstr ""
+
+#: theme/functions/function-frontend.php:391
+msgid "Website"
+msgstr ""
+
+#: theme/functions/function-frontend.php:396
+msgid "Leave a Reply"
+msgstr ""
+
+#: theme/functions/function-frontend.php:397
+#: woocommerce/myaccount/my-orders.php:80
+msgid "Cancel"
+msgstr ""
+
+#: theme/functions/function-frontend.php:402
+msgid "Submit Comment"
+msgstr ""
+
+#: theme/functions/function-install.php:29
+msgid "Home"
+msgstr ""
+
+#: theme/functions/function-install.php:59
+msgid "Pages"
+msgstr ""
+
+#: theme/functions/function-install.php:69
+msgid "About Us"
+msgstr ""
+
+#: theme/functions/function-install.php:79 theme/options/theme_opt.php:75
+#: theme/options/theme_opt.php:961
+msgid "Contact"
+msgstr ""
+
+#: theme/functions/function-install.php:89
+msgid "FAQ"
+msgstr ""
+
+#: theme/functions/function-install.php:99
+msgid "Team"
+msgstr ""
+
+#: theme/functions/function-install.php:109
+msgid "Pricing"
+msgstr ""
+
+#: theme/functions/function-install.php:119
+msgid "Services"
+msgstr ""
+
+#: theme/metaboxes/meta-audio.php:14
+msgid "Audio"
+msgstr ""
+
+#: theme/metaboxes/meta-audio.php:25
+msgid "Sound Cloud Url"
+msgstr ""
+
+#: theme/metaboxes/meta-audio.php:26
+msgid "Enter the sound cloud url."
+msgstr ""
+
+#: theme/metaboxes/meta-audio.php:34 theme/metaboxes/meta-video.php:50
+msgid "Embed Code"
+msgstr ""
+
+#: theme/metaboxes/meta-audio.php:35
+msgid ""
+"If you are using something other than Sound Cloud, paste the embed code here."
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:14 theme/options/theme_skin.php:14
+msgid "No Repeat"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:15 theme/options/theme_skin.php:15
+msgid "Repeat only Horizontally"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:16 theme/options/theme_skin.php:16
+msgid "Repeat only Vertically"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:17 theme/options/theme_skin.php:17
+msgid "Repeat both Vertically and Horizontally"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:21 theme/options/theme_skin.php:21
+msgid "Left"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:22 theme/options/theme_skin.php:22
+msgid "Right"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:23
+#: theme/metaboxes/meta-content-block.php:29 theme/options/theme_skin.php:23
+#: theme/options/theme_skin.php:29
+msgid "Center"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:27 theme/options/theme_skin.php:27
+msgid "Top"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:28 theme/options/theme_skin.php:28
+msgid "Bottom"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:33 theme/options/theme_skin.php:33
+msgid "Fixed"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:34 theme/options/theme_skin.php:34
+msgid "Scroll"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:38
+msgid "Block Options"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:49 theme/options/theme_opt.php:362
+msgid "Padding Top"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:50
+#: theme/metaboxes/meta-content-block.php:59
+msgid "Set the padding value with pixel."
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:58 theme/options/theme_opt.php:370
+msgid "Padding Bottom"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:67 theme/options/theme_skin.php:266
+msgid "Background Color"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:68 theme/options/theme_skin.php:129
+#: theme/options/theme_skin.php:267 theme/options/theme_skin.php:327
+#: theme/options/theme_skin.php:376 theme/options/theme_skin.php:428
+#: theme/options/theme_skin.php:477 theme/options/theme_skin.php:526
+msgid "Set the background color."
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:75
+msgid "Background Image"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:76 theme/options/theme_skin.php:137
+msgid "Set the background image."
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:80 theme/options/theme_opt.php:1013
+#: theme/options/theme_skin.php:141
+msgid "Upload Image"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:81 theme/options/theme_skin.php:142
+msgid "Choose Image"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:82 theme/options/theme_skin.php:143
+msgid "Insert Image"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:87
+msgid "Background Repeat"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:95
+msgid "Background Horizontal"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:103
+msgid "Background Vertical"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:111
+msgid "Background Position"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:119 theme/options/theme_skin.php:110
+msgid "Custom CSS"
+msgstr ""
+
+#: theme/metaboxes/meta-content-block.php:120
+msgid "Enter your custom css here."
+msgstr ""
+
+#: theme/metaboxes/meta-gallery.php:12 theme/metaboxes/meta-gallery.php:21
+msgid "Gallery"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:15
+msgid "Left Side"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:17
+msgid "Right Side"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:22 theme/metaboxes/meta-page.php:31
+#: theme/metaboxes/meta-page.php:78 theme/options/theme_font.php:145
+#: theme/options/theme_font.php:156 theme/options/theme_font.php:167
+#: theme/options/theme_font.php:178 theme/options/theme_font.php:189
+#: theme/options/theme_font.php:200 theme/options/theme_font.php:211
+#: theme/options/theme_font.php:222 theme/options/theme_font.php:233
+#: theme/options/theme_font.php:244 theme/options/theme_font.php:255
+#: theme/options/theme_font.php:266 theme/options/theme_font.php:277
+#: theme/options/theme_font.php:288 theme/options/theme_font.php:299
+#: theme/options/theme_font.php:310 theme/options/theme_opt.php:685
+#: theme/options/theme_opt.php:767 theme/options/theme_opt.php:1066
+msgid "None"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:41
+msgid "Page Options"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:53 theme/metaboxes/meta-portfolio.php:39
+msgid "Choose the layout you wish to display."
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:55 theme/metaboxes/meta-page.php:65
+#: theme/metaboxes/meta-page.php:76 theme/metaboxes/meta-page.php:87
+#: theme/metaboxes/meta-page.php:100 theme/metaboxes/meta-portfolio.php:41
+#: theme/metaboxes/meta-portfolio.php:88 theme/metaboxes/meta-video.php:28
+#: theme/options/theme_font.php:123 theme/options/theme_opt.php:511
+#: theme/options/theme_opt.php:523 theme/options/theme_opt.php:684
+#: theme/options/theme_opt.php:766 theme/options/theme_opt.php:1064
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:62
+msgid "Page Sidebar"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:63
+msgid "Choose sidebar for your page."
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:73
+msgid "Slideshow"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:74
+msgid "Choose slideshow for your page."
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:84
+msgid "Show Title & Desc"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:85
+msgid "Choose yes to display the title & desc."
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:90 theme/metaboxes/meta-page.php:103
+msgid "Yes"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:91 theme/metaboxes/meta-page.php:104
+msgid "No"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:97
+msgid "Show Line"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:98
+msgid "Choose yes to display the line for the page header."
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:110
+msgid "Page Title"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:111
+msgid "Set the title for the page."
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:119
+msgid "Page Description"
+msgstr ""
+
+#: theme/metaboxes/meta-page.php:120
+msgid "Set the description for the page."
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:19 theme/options/theme_skin.php:136
+msgid "Image"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:20
+msgid "Slider"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:21
+msgid "Masonry"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:22 theme/metaboxes/meta-video.php:15
+msgid "Video"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:23
+msgid "Standard"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:27
+msgid "Portfolio Options"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:49
+msgid "Choose the type you wish to display."
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:57
+#: woocommerce/myaccount/my-orders.php:35
+msgid "Date"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:58
+msgid "What was the date of the completed item."
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:66
+msgid "Client"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:67
+msgid "The client name of the item."
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:75
+msgid "Client Url"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:76
+msgid "What is the URL for the item?"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:84
+msgid "Post Link"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:85
+msgid "Where are you link to?"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:90
+msgid "Link to this post."
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:91
+msgid "Link to the custom page."
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:97
+msgid "Custom Link"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:98
+msgid "Enter the custom link where you link to? Ex: http://google.com"
+msgstr ""
+
+#: theme/metaboxes/meta-portfolio.php:107
+msgid ""
+"Choose some posts to display in the related works. The post ID&#8217;s to "
+"pull posts from. Can be entered as a comma separated list."
+msgstr ""
+
+#: theme/metaboxes/meta-video.php:25
+msgid "Embed Player"
+msgstr ""
+
+#: theme/metaboxes/meta-video.php:27
+msgid "Choose the embed player of video you wish to display."
+msgstr ""
+
+#: theme/metaboxes/meta-video.php:38
+msgid "Youtube Or Vimeo Url"
+msgstr ""
+
+#: theme/metaboxes/meta-video.php:39
+msgid ""
+"\n"
+"\t\tEnter the Youtube or Vimeo Url,\n"
+"\t\t<br /><span>Vimeo ex: http://vimeo.com/57148705</span><br />\n"
+"\t\t<span>Youtube ex: http://youtu.be/gTix7FDHZcA</span>"
+msgstr ""
+
+#: theme/metaboxes/meta-video.php:51
+msgid ""
+"If you are using something other than Youtube or Vimeo, paste the embed code "
+"here."
+msgstr ""
+
+#: theme/options/theme_font.php:86 theme/options/theme_font.php:110
+msgid "Font Families"
+msgstr ""
+
+#: theme/options/theme_font.php:91 theme/options/theme_font.php:328
+msgid "Font Size"
+msgstr ""
+
+#: theme/options/theme_font.php:96 theme/options/theme_font.php:460
+msgid "Font Weight"
+msgstr ""
+
+#: theme/options/theme_font.php:101 theme/options/theme_font.php:584
+msgid "Text Transform"
+msgstr ""
+
+#: theme/options/theme_font.php:116
+msgid "Choose Fonts"
+msgstr ""
+
+#: theme/options/theme_font.php:120
+msgid "Current Google Fonts"
+msgstr ""
+
+#: theme/options/theme_font.php:121
+msgid "Select the google fonts that you want to use."
+msgstr ""
+
+#: theme/options/theme_font.php:137 theme/options/theme_font.php:333
+#: theme/options/theme_font.php:465 theme/options/theme_font.php:589
+#: theme/options/theme_opt.php:247 theme/options/theme_opt.php:414
+#: theme/options/theme_opt.php:480 theme/options/theme_opt.php:676
+#: theme/options/theme_opt.php:758 theme/options/theme_skin.php:74
+#: theme/options/theme_skin.php:197
+msgid "Settings"
+msgstr ""
+
+#: theme/options/theme_font.php:141 theme/options/theme_font.php:337
+msgid "Body"
+msgstr ""
+
+#: theme/options/theme_font.php:152 theme/options/theme_font.php:345
+#: theme/options/theme_font.php:469 theme/options/theme_font.php:593
+#: theme/options/theme_opt.php:334
+msgid "Logo"
+msgstr ""
+
+#: theme/options/theme_font.php:163 theme/options/theme_font.php:353
+#: theme/options/theme_font.php:477 theme/options/theme_font.php:601
+msgid "Menu"
+msgstr ""
+
+#: theme/options/theme_font.php:174 theme/options/theme_font.php:361
+#: theme/options/theme_font.php:485 theme/options/theme_font.php:609
+msgid "Sub Menu"
+msgstr ""
+
+#: theme/options/theme_font.php:185 theme/options/theme_font.php:369
+#: theme/options/theme_font.php:493 theme/options/theme_font.php:617
+#: theme/options/theme_skin.php:399
+msgid "Bottom Menu"
+msgstr ""
+
+#: theme/options/theme_font.php:196 theme/options/theme_font.php:377
+#: theme/options/theme_font.php:501 theme/options/theme_font.php:625
+msgid "H1"
+msgstr ""
+
+#: theme/options/theme_font.php:207 theme/options/theme_font.php:385
+#: theme/options/theme_font.php:509 theme/options/theme_font.php:633
+msgid "H2"
+msgstr ""
+
+#: theme/options/theme_font.php:218 theme/options/theme_font.php:393
+#: theme/options/theme_font.php:517 theme/options/theme_font.php:641
+msgid "H3"
+msgstr ""
+
+#: theme/options/theme_font.php:229 theme/options/theme_font.php:401
+#: theme/options/theme_font.php:525 theme/options/theme_font.php:649
+msgid "H4"
+msgstr ""
+
+#: theme/options/theme_font.php:240 theme/options/theme_font.php:409
+#: theme/options/theme_font.php:533 theme/options/theme_font.php:657
+msgid "H5"
+msgstr ""
+
+#: theme/options/theme_font.php:251 theme/options/theme_font.php:417
+#: theme/options/theme_font.php:541 theme/options/theme_font.php:665
+msgid "H6"
+msgstr ""
+
+#: theme/options/theme_font.php:262 theme/options/theme_font.php:425
+#: theme/options/theme_font.php:549 theme/options/theme_font.php:673
+#: theme/options/theme_opt.php:456 theme/options/theme_skin.php:489
+msgid "Copyright"
+msgstr ""
+
+#: theme/options/theme_font.php:273 theme/options/theme_font.php:433
+#: theme/options/theme_font.php:557 theme/options/theme_font.php:681
+#: theme/options/theme_skin.php:367 theme/options/theme_skin.php:468
+msgid "Widget Title"
+msgstr ""
+
+#: theme/options/theme_font.php:284 theme/options/theme_font.php:441
+#: theme/options/theme_font.php:565 theme/options/theme_font.php:689
+msgid "Section Title"
+msgstr ""
+
+#: theme/options/theme_font.php:295
+msgid "Item Title"
+msgstr ""
+
+#: theme/options/theme_font.php:306
+msgid "Woocommerce Amount"
+msgstr ""
+
+#: theme/options/theme_opt.php:17 theme/options/theme_opt.php:645
+msgid "500px"
+msgstr ""
+
+#: theme/options/theme_opt.php:22 theme/options/theme_opt.php:637
+msgid "RSS"
+msgstr ""
+
+#: theme/options/theme_opt.php:40 theme/options/theme_opt.php:86
+#: theme/options/theme_opt.php:92 theme/options/theme_skin.php:45
+#: theme/options/theme_skin.php:69
+msgid "General"
+msgstr ""
+
+#: theme/options/theme_opt.php:45 theme/options/theme_opt.php:242
+msgid "Header"
+msgstr ""
+
+#: theme/options/theme_opt.php:50 theme/options/theme_opt.php:409
+msgid "Footer"
+msgstr ""
+
+#: theme/options/theme_opt.php:55 theme/options/theme_opt.php:475
+msgid "Social"
+msgstr ""
+
+#: theme/options/theme_opt.php:96
+msgid "Disable Admin Bar"
+msgstr ""
+
+#: theme/options/theme_opt.php:97
+msgid "Disabled the admin bar in the front top."
+msgstr ""
+
+#: theme/options/theme_opt.php:109
+msgid "Show Nice Scroll"
+msgstr ""
+
+#: theme/options/theme_opt.php:110
+msgid "Display the nicescroll."
+msgstr ""
+
+#: theme/options/theme_opt.php:121 theme/options/theme_opt.php:831
+msgid "Layout"
+msgstr ""
+
+#: theme/options/theme_opt.php:122
+msgid "Choose the layout you want to display."
+msgstr ""
+
+#: theme/options/theme_opt.php:133
+msgid "Coming Soon Date"
+msgstr ""
+
+#: theme/options/theme_opt.php:134
+msgid "Set a date for your coming soon page."
+msgstr ""
+
+#: theme/options/theme_opt.php:142
+msgid "Admin Login Logo"
+msgstr ""
+
+#: theme/options/theme_opt.php:143
+msgid "Set the admin login page logo."
+msgstr ""
+
+#: theme/options/theme_opt.php:147 theme/options/theme_opt.php:343
+#: theme/options/theme_opt.php:355
+msgid "Upload Logo"
+msgstr ""
+
+#: theme/options/theme_opt.php:148 theme/options/theme_opt.php:344
+#: theme/options/theme_opt.php:356
+msgid "Choose a Logo"
+msgstr ""
+
+#: theme/options/theme_opt.php:149 theme/options/theme_opt.php:345
+#: theme/options/theme_opt.php:357
+msgid "Insert the Logo"
+msgstr ""
+
+#: theme/options/theme_opt.php:154
+msgid "Analytics Code"
+msgstr ""
+
+#: theme/options/theme_opt.php:155
+msgid ""
+"Paste your <a href=\"http://www.google.com/analytics/\" target=\"_blank"
+"\">analytics code</a> here, it will get applied to each page."
+msgstr ""
+
+#: theme/options/theme_opt.php:168
+msgid "Favicon & Touch icons"
+msgstr ""
+
+#: theme/options/theme_opt.php:172
+msgid "Favicon"
+msgstr ""
+
+#: theme/options/theme_opt.php:173
+msgid ""
+"To upload an image click on \"Upload favicon\" button. Once the image is as "
+"custom favicon."
+msgstr ""
+
+#: theme/options/theme_opt.php:177
+msgid "Upload Favicon"
+msgstr ""
+
+#: theme/options/theme_opt.php:178
+msgid "Choose a favicon"
+msgstr ""
+
+#: theme/options/theme_opt.php:179
+msgid "Insert the favicon"
+msgstr ""
+
+#: theme/options/theme_opt.php:184 theme/options/theme_opt.php:196
+#: theme/options/theme_opt.php:208 theme/options/theme_opt.php:220
+msgid "Touch icons"
+msgstr ""
+
+#: theme/options/theme_opt.php:185
+msgid "For iPad3 with retina display, <span>size is 144x144</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:189 theme/options/theme_opt.php:201
+#: theme/options/theme_opt.php:213 theme/options/theme_opt.php:225
+msgid "Upload Icon"
+msgstr ""
+
+#: theme/options/theme_opt.php:190 theme/options/theme_opt.php:202
+#: theme/options/theme_opt.php:214 theme/options/theme_opt.php:226
+msgid "Choose a Icon"
+msgstr ""
+
+#: theme/options/theme_opt.php:191 theme/options/theme_opt.php:203
+#: theme/options/theme_opt.php:215 theme/options/theme_opt.php:227
+msgid "Insert the Icon"
+msgstr ""
+
+#: theme/options/theme_opt.php:197
+msgid "For first- and second-generation iPad, <span>size is 114x114</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:209
+msgid "For first- and second-generation iPad, <span>size is 72x72</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:221
+msgid ""
+"For non-Retina iPhone, iPod Touch, and Android 2.1+ devices, <span>size is "
+"57x57</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:251
+msgid "Show Sticky Header"
+msgstr ""
+
+#: theme/options/theme_opt.php:252
+msgid "Display the sticky header."
+msgstr ""
+
+#: theme/options/theme_opt.php:263
+msgid "Show Topbar"
+msgstr ""
+
+#: theme/options/theme_opt.php:264
+msgid "Display the topbar."
+msgstr ""
+
+#: theme/options/theme_opt.php:275 theme/options/theme_opt.php:418
+msgid "Show Widgets"
+msgstr ""
+
+#: theme/options/theme_opt.php:276
+msgid "Display the top widgets area."
+msgstr ""
+
+#: theme/options/theme_opt.php:287 theme/options/theme_opt.php:430
+msgid "Widgets Columns"
+msgstr ""
+
+#: theme/options/theme_opt.php:288
+msgid "Choose the column for your top widgets area."
+msgstr ""
+
+#: theme/options/theme_opt.php:301
+msgid "Show Search"
+msgstr ""
+
+#: theme/options/theme_opt.php:302
+msgid "Display the search bar."
+msgstr ""
+
+#: theme/options/theme_opt.php:313
+msgid "Search Types"
+msgstr ""
+
+#: theme/options/theme_opt.php:314
+msgid "Choose the type for the search bar."
+msgstr ""
+
+#: theme/options/theme_opt.php:338
+msgid "Standard Logo"
+msgstr ""
+
+#: theme/options/theme_opt.php:339
+msgid "Set the standard logo, ex:<span>size is 200x120</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:350
+msgid "Retina Logo"
+msgstr ""
+
+#: theme/options/theme_opt.php:351
+msgid ""
+"Set the retina logo, the size should be double of standard logo above. ex:"
+"<span>size is 400x240</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:363
+msgid "Set the logo from top padding. <span>The unit is pixel.</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:371
+msgid "Set the logo from bottom padding. <span>The unit is pixel.</span>"
+msgstr ""
+
+#: theme/options/theme_opt.php:378
+msgid "Show Tagline"
+msgstr ""
+
+#: theme/options/theme_opt.php:379
+msgid "Display the tagline for logo."
+msgstr ""
+
+#: theme/options/theme_opt.php:390
+msgid "Tagline"
+msgstr ""
+
+#: theme/options/theme_opt.php:391
+msgid "You can add your tagline for logo here."
+msgstr ""
+
+#: theme/options/theme_opt.php:419
+msgid "Display the footer widgets area."
+msgstr ""
+
+#: theme/options/theme_opt.php:431
+msgid "Choose the column for your footer widgets area."
+msgstr ""
+
+#: theme/options/theme_opt.php:444
+msgid "Show Go Top"
+msgstr ""
+
+#: theme/options/theme_opt.php:445
+msgid "Display the gotop button."
+msgstr ""
+
+#: theme/options/theme_opt.php:457
+msgid "You can add your copyright message here."
+msgstr ""
+
+#: theme/options/theme_opt.php:484
+msgid "Show Top Icons"
+msgstr ""
+
+#: theme/options/theme_opt.php:485
+msgid "Display the social icons in the top of site."
+msgstr ""
+
+#: theme/options/theme_opt.php:496
+msgid "Show Bottom Icons"
+msgstr ""
+
+#: theme/options/theme_opt.php:497
+msgid "Display the social icons in the bottom of site."
+msgstr ""
+
+#: theme/options/theme_opt.php:508 theme/options/theme_opt.php:537
+msgid "Icons"
+msgstr ""
+
+#: theme/options/theme_opt.php:509
+msgid ""
+"Select the icons and orders you want to display in top and bottom. It will "
+"display as the order you set."
+msgstr ""
+
+#: theme/options/theme_opt.php:520
+msgid "Widget Icons"
+msgstr ""
+
+#: theme/options/theme_opt.php:521
+msgid ""
+"Select the icons and orders you want to display in widget. It will display "
+"as the order you set."
+msgstr ""
+
+#: theme/options/theme_opt.php:565
+msgid "LinkedIn"
+msgstr ""
+
+#: theme/options/theme_opt.php:680 theme/options/theme_opt.php:762
+msgid "Main Page"
+msgstr ""
+
+#: theme/options/theme_opt.php:681
+msgid "Set the parent page of blog single."
+msgstr ""
+
+#: theme/options/theme_opt.php:691 theme/options/theme_opt.php:735
+#: theme/options/theme_opt.php:814 theme/options/theme_opt.php:871
+#: theme/options/theme_opt.php:912 theme/options/theme_opt.php:942
+#: theme/shortcodes/tinymce/config.php:145
+#: theme/shortcodes/tinymce/config.php:218
+#: theme/shortcodes/tinymce/config.php:317
+#: theme/shortcodes/tinymce/config.php:433
+#: theme/shortcodes/tinymce/config.php:519
+#: theme/shortcodes/tinymce/config.php:606
+#: theme/shortcodes/tinymce/config.php:702
+#: theme/shortcodes/tinymce/config.php:833
+#: theme/shortcodes/tinymce/config.php:1122
+#: theme/shortcodes/tinymce/config.php:1241
+#: theme/shortcodes/tinymce/config.php:1344
+#: theme/shortcodes/tinymce/config.php:2087
+msgid "Counts"
+msgstr ""
+
+#: theme/options/theme_opt.php:692
+msgid "Set the number of blog posts you want to display."
+msgstr ""
+
+#: theme/options/theme_opt.php:708 theme/options/theme_opt.php:786
+#: theme/options/theme_opt.php:843 theme/shortcodes/tinymce/config.php:163
+#: theme/shortcodes/tinymce/config.php:236
+#: theme/shortcodes/tinymce/config.php:335
+#: theme/shortcodes/tinymce/config.php:439
+#: theme/shortcodes/tinymce/config.php:525
+#: theme/shortcodes/tinymce/config.php:612
+#: theme/shortcodes/tinymce/config.php:720
+#: theme/shortcodes/tinymce/config.php:851
+#: theme/shortcodes/tinymce/config.php:1140
+#: theme/shortcodes/tinymce/config.php:1259
+#: theme/shortcodes/tinymce/config.php:1362
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Order"
+msgstr ""
+
+#: theme/options/theme_opt.php:709
+msgid "Choose the order for your related posts."
+msgstr ""
+
+#: theme/options/theme_opt.php:720 theme/options/theme_opt.php:798
+#: theme/options/theme_opt.php:855 theme/shortcodes/tinymce/config.php:173
+#: theme/shortcodes/tinymce/config.php:246
+#: theme/shortcodes/tinymce/config.php:345
+#: theme/shortcodes/tinymce/config.php:449
+#: theme/shortcodes/tinymce/config.php:535
+#: theme/shortcodes/tinymce/config.php:622
+#: theme/shortcodes/tinymce/config.php:730
+#: theme/shortcodes/tinymce/config.php:861
+#: theme/shortcodes/tinymce/config.php:1150
+#: theme/shortcodes/tinymce/config.php:1269
+#: theme/shortcodes/tinymce/config.php:1372
+msgid "Orderby"
+msgstr ""
+
+#: theme/options/theme_opt.php:721
+msgid "Choose the orderby for your related posts."
+msgstr ""
+
+#: theme/options/theme_opt.php:736 theme/options/theme_opt.php:872
+#: theme/options/theme_opt.php:913 theme/options/theme_opt.php:943
+msgid "Set the number of posts you want to display."
+msgstr ""
+
+#: theme/options/theme_opt.php:763
+msgid "Set the parent page of portfolio single."
+msgstr ""
+
+#: theme/options/theme_opt.php:773 theme/options/theme_opt.php:899
+#: theme/options/theme_opt.php:929 theme/shortcodes/tinymce/config.php:1230
+#: theme/shortcodes/tinymce/config.php:1334
+#: theme/shortcodes/tinymce/config.php:1505
+msgid "Columns"
+msgstr ""
+
+#: theme/options/theme_opt.php:774
+msgid "Choose the column for your portfolio archive page."
+msgstr ""
+
+#: theme/options/theme_opt.php:787
+msgid "Choose the order for your portfolio archive page."
+msgstr ""
+
+#: theme/options/theme_opt.php:799
+msgid "Choose the orderby for your portfolio archive page."
+msgstr ""
+
+#: theme/options/theme_opt.php:815
+msgid "Set the number of portfolio posts you want to display."
+msgstr ""
+
+#: theme/options/theme_opt.php:832
+msgid "Choose the layout for your related works."
+msgstr ""
+
+#: theme/options/theme_opt.php:844
+msgid "Choose the order for your related works."
+msgstr ""
+
+#: theme/options/theme_opt.php:856
+msgid "Choose the orderby for your related works."
+msgstr ""
+
+#: theme/options/theme_opt.php:900
+msgid "Choose the column for your shop page."
+msgstr ""
+
+#: theme/options/theme_opt.php:925
+msgid "Archive"
+msgstr ""
+
+#: theme/options/theme_opt.php:930
+msgid "Choose the column for your archive page."
+msgstr ""
+
+#: theme/options/theme_opt.php:966
+msgid "Google Map"
+msgstr ""
+
+#: theme/options/theme_opt.php:970
+msgid "Show Map"
+msgstr ""
+
+#: theme/options/theme_opt.php:971
+msgid "Disable or enable the map."
+msgstr ""
+
+#: theme/options/theme_opt.php:982 theme/shortcodes/tinymce/config.php:108
+#: theme/shortcodes/tinymce/config.php:902
+#: theme/shortcodes/tinymce/config.php:1059
+#: theme/shortcodes/tinymce/config.php:1425
+#: theme/shortcodes/tinymce/config.php:1479
+#: theme/shortcodes/tinymce/config.php:1544
+msgid "Height"
+msgstr ""
+
+#: theme/options/theme_opt.php:983 theme/shortcodes/tinymce/config.php:903
+msgid "The number of map height."
+msgstr ""
+
+#: theme/options/theme_opt.php:990
+msgid "Latitude"
+msgstr ""
+
+#: theme/options/theme_opt.php:991 theme/shortcodes/tinymce/config.php:909
+msgid "The number of map lat."
+msgstr ""
+
+#: theme/options/theme_opt.php:999
+msgid "Longitude"
+msgstr ""
+
+#: theme/options/theme_opt.php:1000 theme/shortcodes/tinymce/config.php:915
+msgid "The number of map lng."
+msgstr ""
+
+#: theme/options/theme_opt.php:1008 theme/shortcodes/tinymce/config.php:920
+#: theme/shortcodes/tinymce/config.php:1012
+msgid "Icon"
+msgstr ""
+
+#: theme/options/theme_opt.php:1009
+msgid "Upload an icon for your location."
+msgstr ""
+
+#: theme/options/theme_opt.php:1014
+msgid "Choose an Image"
+msgstr ""
+
+#: theme/options/theme_opt.php:1015
+msgid "Insert the Image"
+msgstr ""
+
+#: theme/options/theme_opt.php:1020 theme/shortcodes/tinymce/config.php:926
+msgid "Zoom"
+msgstr ""
+
+#: theme/options/theme_opt.php:1021 theme/shortcodes/tinymce/config.php:927
+msgid "The number of map zoom."
+msgstr ""
+
+#: theme/options/theme_opt.php:1028 theme/shortcodes/tinymce/config.php:932
+msgid "Dragging"
+msgstr ""
+
+#: theme/options/theme_opt.php:1029 theme/shortcodes/tinymce/config.php:933
+msgid "Dragging able for the map (yes/no)."
+msgstr ""
+
+#: theme/options/theme_opt.php:1040 theme/shortcodes/tinymce/config.php:942
+msgid "Mousewheel"
+msgstr ""
+
+#: theme/options/theme_opt.php:1041 theme/shortcodes/tinymce/config.php:943
+msgid "Mousewheel able for the map (yes/no)."
+msgstr ""
+
+#: theme/options/theme_opt.php:1057
+msgid "Contact From"
+msgstr ""
+
+#: theme/options/theme_opt.php:1061
+msgid "From"
+msgstr ""
+
+#: theme/options/theme_opt.php:1062
+msgid ""
+"Choose a from for the contact page. You should install the contact form7, "
+"and add a form first."
+msgstr ""
+
+#: theme/options/theme_skin.php:50 theme/options/theme_skin.php:192
+msgid "Global"
+msgstr ""
+
+#: theme/options/theme_skin.php:55 theme/options/theme_skin.php:293
+msgid "Top Area"
+msgstr ""
+
+#: theme/options/theme_skin.php:60 theme/options/theme_skin.php:394
+msgid "Bottom Area"
+msgstr ""
+
+#: theme/options/theme_skin.php:78
+msgid "Skins"
+msgstr ""
+
+#: theme/options/theme_skin.php:79
+msgid "Choose the skin you want to display."
+msgstr ""
+
+#: theme/options/theme_skin.php:83
+msgid "Blue"
+msgstr ""
+
+#: theme/options/theme_skin.php:84
+msgid "Brown"
+msgstr ""
+
+#: theme/options/theme_skin.php:85
+msgid "Cyan"
+msgstr ""
+
+#: theme/options/theme_skin.php:86
+msgid "Green"
+msgstr ""
+
+#: theme/options/theme_skin.php:87
+msgid "Navy"
+msgstr ""
+
+#: theme/options/theme_skin.php:88
+msgid "Olive"
+msgstr ""
+
+#: theme/options/theme_skin.php:89
+msgid "Orange"
+msgstr ""
+
+#: theme/options/theme_skin.php:90
+msgid "Pink"
+msgstr ""
+
+#: theme/options/theme_skin.php:91
+msgid "Purple"
+msgstr ""
+
+#: theme/options/theme_skin.php:92
+msgid "Red"
+msgstr ""
+
+#: theme/options/theme_skin.php:98
+msgid "Custom Colors"
+msgstr ""
+
+#: theme/options/theme_skin.php:99
+msgid ""
+"Enable it, and then you can custom some colors for your theme, the colors "
+"will be based on the skin."
+msgstr ""
+
+#: theme/options/theme_skin.php:111
+msgid ""
+"Add only the css code without <span> &lt;style&gt;&lt;/style&gt; </span> "
+"style blocks. They are auto added. it's easy to customize your site."
+msgstr ""
+
+#: theme/options/theme_skin.php:124 theme/options/theme_skin.php:326
+#: theme/options/theme_skin.php:375 theme/options/theme_skin.php:427
+#: theme/options/theme_skin.php:476 theme/options/theme_skin.php:525
+msgid "Background"
+msgstr ""
+
+#: theme/options/theme_skin.php:128
+msgid "Color"
+msgstr ""
+
+#: theme/options/theme_skin.php:148
+msgid "Image Repeat"
+msgstr ""
+
+#: theme/options/theme_skin.php:156
+msgid "Image Horizontal"
+msgstr ""
+
+#: theme/options/theme_skin.php:164
+msgid "Image Vertical"
+msgstr ""
+
+#: theme/options/theme_skin.php:172
+msgid "Image Position"
+msgstr ""
+
+#: theme/options/theme_skin.php:201 theme/shortcodes/tinymce/config.php:23
+#: theme/shortcodes/tinymce/config.php:1693
+#: theme/shortcodes/tinymce/config.php:1902
+#: theme/shortcodes/tinymce/config.php:1935
+#: theme/shortcodes/tinymce/config.php:1979
+#: theme/shortcodes/tinymce/config.php:2019
+#: theme/shortcodes/tinymce/config.php:2063
+#: theme/shortcodes/tinymce/config.php:2159
+#: theme/shortcodes/tinymce/config.php:2193
+#: theme/shortcodes/tinymce/config.php:2227
+msgid "Content"
+msgstr ""
+
+#: theme/options/theme_skin.php:202
+msgid "Set the content color."
+msgstr ""
+
+#: theme/options/theme_skin.php:209 theme/options/theme_skin.php:343
+#: theme/options/theme_skin.php:444 theme/options/theme_skin.php:493
+msgid "Text"
+msgstr ""
+
+#: theme/options/theme_skin.php:210 theme/options/theme_skin.php:251
+#: theme/options/theme_skin.php:344 theme/options/theme_skin.php:445
+#: theme/options/theme_skin.php:494
+msgid "Set the text color."
+msgstr ""
+
+#: theme/options/theme_skin.php:217 theme/options/theme_skin.php:302
+#: theme/options/theme_skin.php:351 theme/options/theme_skin.php:403
+#: theme/options/theme_skin.php:452 theme/options/theme_skin.php:501
+#: theme/shortcodes/tinymce/config.php:74
+#: theme/shortcodes/tinymce/config.php:396
+#: theme/shortcodes/tinymce/config.php:1018
+#: theme/shortcodes/tinymce/config.php:1075
+#: theme/shortcodes/tinymce/config.php:1867
+#: theme/shortcodes/tinymce/config.php:1896
+#: theme/shortcodes/tinymce/config.php:1929
+msgid "Link"
+msgstr ""
+
+#: theme/options/theme_skin.php:218
+msgid "Set the a link color."
+msgstr ""
+
+#: theme/options/theme_skin.php:225 theme/options/theme_skin.php:310
+#: theme/options/theme_skin.php:359 theme/options/theme_skin.php:411
+#: theme/options/theme_skin.php:460 theme/options/theme_skin.php:509
+msgid "Hover"
+msgstr ""
+
+#: theme/options/theme_skin.php:226
+msgid "Set the a link hover color."
+msgstr ""
+
+#: theme/options/theme_skin.php:233
+msgid "Hgroup"
+msgstr ""
+
+#: theme/options/theme_skin.php:234
+msgid "Set the hgroup color."
+msgstr ""
+
+#: theme/options/theme_skin.php:246 theme/shortcodes/tinymce/config.php:1681
+msgid "Button"
+msgstr ""
+
+#: theme/options/theme_skin.php:250
+msgid "Text Color"
+msgstr ""
+
+#: theme/options/theme_skin.php:258
+msgid "Text Hover Color"
+msgstr ""
+
+#: theme/options/theme_skin.php:259
+msgid "Set the hover text color."
+msgstr ""
+
+#: theme/options/theme_skin.php:274
+msgid "Background Hover Color"
+msgstr ""
+
+#: theme/options/theme_skin.php:275
+msgid "Set the background hover color."
+msgstr ""
+
+#: theme/options/theme_skin.php:298
+msgid "TopBar"
+msgstr ""
+
+#: theme/options/theme_skin.php:303 theme/options/theme_skin.php:352
+#: theme/options/theme_skin.php:404 theme/options/theme_skin.php:453
+#: theme/options/theme_skin.php:502
+msgid "Set the link color."
+msgstr ""
+
+#: theme/options/theme_skin.php:311 theme/options/theme_skin.php:360
+#: theme/options/theme_skin.php:412 theme/options/theme_skin.php:461
+#: theme/options/theme_skin.php:510
+msgid "Set the hover color."
+msgstr ""
+
+#: theme/options/theme_skin.php:318 theme/options/theme_skin.php:419
+#: theme/options/theme_skin.php:517
+msgid "Border"
+msgstr ""
+
+#: theme/options/theme_skin.php:319 theme/options/theme_skin.php:420
+#: theme/options/theme_skin.php:518
+msgid "Set the border color."
+msgstr ""
+
+#: theme/options/theme_skin.php:339
+msgid "Top Widgets"
+msgstr ""
+
+#: theme/options/theme_skin.php:368 theme/options/theme_skin.php:469
+msgid "Set the widget title text color."
+msgstr ""
+
+#: theme/options/theme_skin.php:440
+msgid "Bottom Widgets"
+msgstr ""
+
+#: theme/shortcodes/best-sellers-product-carousel.php:71
+#: theme/shortcodes/blog-carousel.php:32 theme/shortcodes/blog-full.php:26
+#: theme/shortcodes/blog.php:26
+#: theme/shortcodes/featured-product-carousel.php:63
+#: theme/shortcodes/onsale-product-carousel.php:65
+#: theme/shortcodes/portfolio-carousel.php:32
+#: theme/shortcodes/post-grid.php:29 theme/shortcodes/post-left-grid.php:27
+#: theme/shortcodes/product-carousel.php:34
+#: theme/shortcodes/product-carousel.php:66
+msgid "Hi, please check the type option, the current type is not match!"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:10
+msgid "Insert Accordions Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:18
+msgid "Title of the accordion."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:24
+msgid "Add the accordion content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:28
+msgid "Add accordion"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:43
+msgid "Insert Ads Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:50
+msgid "Ad Title"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:51
+msgid "Title of the ad"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:56
+msgid "Image Url"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:57
+msgid "The image url for ad."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:62
+msgid "Image Width"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:63
+#: theme/shortcodes/tinymce/config.php:1054
+#: theme/shortcodes/tinymce/config.php:1420
+#: theme/shortcodes/tinymce/config.php:1474
+#: theme/shortcodes/tinymce/config.php:1539
+msgid "The image width."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:68
+msgid "Image Height"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:69
+#: theme/shortcodes/tinymce/config.php:1060
+#: theme/shortcodes/tinymce/config.php:1426
+#: theme/shortcodes/tinymce/config.php:1480
+#: theme/shortcodes/tinymce/config.php:1545
+msgid "The image height."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:75
+msgid "The link of ad."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:80
+msgid "Ad Content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:81
+msgid "Add the ad content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:85
+msgid "Add Ad"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:102
+msgid "Soundcloud Url"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:103
+msgid "The url of audio, it is from SoundCloud."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:109
+msgid "The height for the soundcloud."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:114
+msgid "Embed"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:115
+msgid "If you want to add some other embed code, you can use this option."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:119
+msgid "Insert Audio Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:136
+#: theme/shortcodes/tinymce/config.php:209
+#: theme/shortcodes/tinymce/config.php:308
+#: theme/shortcodes/tinymce/config.php:693
+#: theme/shortcodes/tinymce/config.php:1113
+#: theme/shortcodes/tinymce/config.php:1217
+#: theme/shortcodes/tinymce/config.php:1321
+msgid "The type for the post item."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:146
+#: theme/shortcodes/tinymce/config.php:219
+#: theme/shortcodes/tinymce/config.php:318
+#: theme/shortcodes/tinymce/config.php:434
+#: theme/shortcodes/tinymce/config.php:520
+#: theme/shortcodes/tinymce/config.php:607
+#: theme/shortcodes/tinymce/config.php:703
+#: theme/shortcodes/tinymce/config.php:834
+#: theme/shortcodes/tinymce/config.php:1123
+#: theme/shortcodes/tinymce/config.php:1242
+#: theme/shortcodes/tinymce/config.php:1345
+#: theme/shortcodes/tinymce/config.php:1723
+#: theme/shortcodes/tinymce/config.php:1729
+msgid "The number of posts to display on each page."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:151
+#: theme/shortcodes/tinymce/config.php:224
+#: theme/shortcodes/tinymce/config.php:323
+#: theme/shortcodes/tinymce/config.php:708
+#: theme/shortcodes/tinymce/config.php:839
+#: theme/shortcodes/tinymce/config.php:1128
+#: theme/shortcodes/tinymce/config.php:1247
+#: theme/shortcodes/tinymce/config.php:1350
+#: theme/shortcodes/tinymce/config.php:1734
+msgid "Cats"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:152
+#: theme/shortcodes/tinymce/config.php:225
+#: theme/shortcodes/tinymce/config.php:324
+#: theme/shortcodes/tinymce/config.php:709
+#: theme/shortcodes/tinymce/config.php:840
+#: theme/shortcodes/tinymce/config.php:1129
+#: theme/shortcodes/tinymce/config.php:1248
+#: theme/shortcodes/tinymce/config.php:1351
+#: theme/shortcodes/tinymce/config.php:1735
+msgid ""
+"The category ID's to pull posts from. Can be entered as a comma separated "
+"list."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:157
+#: theme/shortcodes/tinymce/config.php:230
+#: theme/shortcodes/tinymce/config.php:329
+#: theme/shortcodes/tinymce/config.php:714
+#: theme/shortcodes/tinymce/config.php:845
+#: theme/shortcodes/tinymce/config.php:1134
+#: theme/shortcodes/tinymce/config.php:1253
+#: theme/shortcodes/tinymce/config.php:1356
+#: theme/shortcodes/tinymce/config.php:1740
+msgid "Posts"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:158
+#: theme/shortcodes/tinymce/config.php:231
+#: theme/shortcodes/tinymce/config.php:330
+#: theme/shortcodes/tinymce/config.php:715
+#: theme/shortcodes/tinymce/config.php:846
+#: theme/shortcodes/tinymce/config.php:1135
+#: theme/shortcodes/tinymce/config.php:1254
+#: theme/shortcodes/tinymce/config.php:1357
+#: theme/shortcodes/tinymce/config.php:1741
+msgid ""
+"The post ID's to pull posts from. Can be entered as a comma separated list."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:164
+#: theme/shortcodes/tinymce/config.php:237
+#: theme/shortcodes/tinymce/config.php:336
+#: theme/shortcodes/tinymce/config.php:440
+#: theme/shortcodes/tinymce/config.php:526
+#: theme/shortcodes/tinymce/config.php:613
+#: theme/shortcodes/tinymce/config.php:721
+#: theme/shortcodes/tinymce/config.php:852
+#: theme/shortcodes/tinymce/config.php:1141
+#: theme/shortcodes/tinymce/config.php:1260
+#: theme/shortcodes/tinymce/config.php:1363
+msgid ""
+"Designates the ascending or descending order of the 'orderby' parameter."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:174
+#: theme/shortcodes/tinymce/config.php:247
+#: theme/shortcodes/tinymce/config.php:346
+#: theme/shortcodes/tinymce/config.php:450
+#: theme/shortcodes/tinymce/config.php:536
+#: theme/shortcodes/tinymce/config.php:623
+#: theme/shortcodes/tinymce/config.php:731
+#: theme/shortcodes/tinymce/config.php:862
+#: theme/shortcodes/tinymce/config.php:1151
+#: theme/shortcodes/tinymce/config.php:1270
+#: theme/shortcodes/tinymce/config.php:1373
+msgid "Sort retrieved posts by parameter."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:186
+msgid "Insert Blog Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:203
+#: theme/shortcodes/tinymce/config.php:428
+#: theme/shortcodes/tinymce/config.php:514
+#: theme/shortcodes/tinymce/config.php:601
+#: theme/shortcodes/tinymce/config.php:687
+#: theme/shortcodes/tinymce/config.php:1107
+msgid "The title for the post carousel."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:260
+#: theme/shortcodes/tinymce/config.php:464
+#: theme/shortcodes/tinymce/config.php:550
+#: theme/shortcodes/tinymce/config.php:637
+#: theme/shortcodes/tinymce/config.php:745
+#: theme/shortcodes/tinymce/config.php:1165
+#: theme/shortcodes/tinymce/config.php:1570
+#: theme/shortcodes/tinymce/config.php:2099
+msgid "Auto"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:261
+#: theme/shortcodes/tinymce/config.php:465
+#: theme/shortcodes/tinymce/config.php:551
+#: theme/shortcodes/tinymce/config.php:638
+#: theme/shortcodes/tinymce/config.php:746
+#: theme/shortcodes/tinymce/config.php:1166
+#: theme/shortcodes/tinymce/config.php:1571
+#: theme/shortcodes/tinymce/config.php:2100
+msgid "Auto play the slider (true/false)."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:270
+#: theme/shortcodes/tinymce/config.php:474
+#: theme/shortcodes/tinymce/config.php:560
+#: theme/shortcodes/tinymce/config.php:647
+#: theme/shortcodes/tinymce/config.php:755
+#: theme/shortcodes/tinymce/config.php:1175
+#: theme/shortcodes/tinymce/config.php:1580
+#: theme/shortcodes/tinymce/config.php:2109
+msgid "Speed"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:271
+#: theme/shortcodes/tinymce/config.php:475
+#: theme/shortcodes/tinymce/config.php:561
+#: theme/shortcodes/tinymce/config.php:648
+#: theme/shortcodes/tinymce/config.php:756
+#: theme/shortcodes/tinymce/config.php:1176
+#: theme/shortcodes/tinymce/config.php:1581
+#: theme/shortcodes/tinymce/config.php:2110
+msgid "Slide transition duration (in ms)."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:276
+#: theme/shortcodes/tinymce/config.php:480
+#: theme/shortcodes/tinymce/config.php:566
+#: theme/shortcodes/tinymce/config.php:653
+#: theme/shortcodes/tinymce/config.php:761
+#: theme/shortcodes/tinymce/config.php:1181
+#: theme/shortcodes/tinymce/config.php:1586
+#: theme/shortcodes/tinymce/config.php:2115
+msgid "Pause"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:277
+#: theme/shortcodes/tinymce/config.php:481
+#: theme/shortcodes/tinymce/config.php:567
+#: theme/shortcodes/tinymce/config.php:654
+#: theme/shortcodes/tinymce/config.php:762
+#: theme/shortcodes/tinymce/config.php:1182
+#: theme/shortcodes/tinymce/config.php:1587
+#: theme/shortcodes/tinymce/config.php:2116
+msgid "The amount of time (in ms) between each auto transition."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:282
+#: theme/shortcodes/tinymce/config.php:486
+#: theme/shortcodes/tinymce/config.php:572
+#: theme/shortcodes/tinymce/config.php:659
+#: theme/shortcodes/tinymce/config.php:767
+#: theme/shortcodes/tinymce/config.php:1187
+msgid "Move Slides"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:283
+#: theme/shortcodes/tinymce/config.php:487
+#: theme/shortcodes/tinymce/config.php:573
+#: theme/shortcodes/tinymce/config.php:660
+#: theme/shortcodes/tinymce/config.php:768
+#: theme/shortcodes/tinymce/config.php:1188
+msgid "The number of slides to move on transition."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:291
+msgid "Insert Blog Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:358
+msgid "Insert Blog Full Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:374
+#: theme/shortcodes/tinymce/config.php:1762
+msgid "Style"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:375
+msgid "The style for button."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:385
+#: theme/shortcodes/tinymce/config.php:968
+msgid "Size"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:386
+#: theme/shortcodes/tinymce/config.php:969
+msgid "The size for button."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:397
+msgid "The link url of button."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:402
+msgid "Target"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:403
+msgid "The target for button."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:411
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:497
+msgid "Insert Best Sellers Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:583
+msgid "Insert Featured Products Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:670
+msgid "Insert OnSale Products Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:778
+msgid "Insert Products Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:792
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:798
+msgid "Column Type"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:799
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:811
+msgid "Column Content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:812
+msgid "Add the column content."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:816
+msgid "Add Column"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:876
+#: theme/shortcodes/tinymce/config.php:1284
+msgid "Filter"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:877
+#: theme/shortcodes/tinymce/config.php:1285
+msgid "Show the sort menu."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:885
+msgid "Insert Faqs Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:908
+msgid "Lat"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:914
+msgid "Lng"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:921
+msgid "The icon url for the map."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:951
+msgid "Insert Gmap Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:980
+msgid "The name for icon."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:984
+msgid "Insert Icon Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:999
+msgid "Insert Icon Boxes Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1007
+msgid "Title of the icon box."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1013
+msgid "The icon font for icon box."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1019
+#: theme/shortcodes/tinymce/config.php:1076
+msgid "The link of icon box."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1023
+msgid "Add Icon Box."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1042
+msgid "Title of the image."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1047
+msgid "Url"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1048
+msgid "The image url for image."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1053
+#: theme/shortcodes/tinymce/config.php:1419
+#: theme/shortcodes/tinymce/config.php:1473
+#: theme/shortcodes/tinymce/config.php:1538
+msgid "Width"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1065
+#: theme/shortcodes/tinymce/config.php:1431
+#: theme/shortcodes/tinymce/config.php:1485
+#: theme/shortcodes/tinymce/config.php:1550
+msgid "Crop"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1066
+#: theme/shortcodes/tinymce/config.php:1432
+#: theme/shortcodes/tinymce/config.php:1486
+#: theme/shortcodes/tinymce/config.php:1551
+msgid "Crop the image or not."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1081
+#: theme/shortcodes/tinymce/config.php:1441
+#: theme/shortcodes/tinymce/config.php:1495
+#: theme/shortcodes/tinymce/config.php:1560
+msgid "Lightbox"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1082
+#: theme/shortcodes/tinymce/config.php:1442
+#: theme/shortcodes/tinymce/config.php:1496
+#: theme/shortcodes/tinymce/config.php:1561
+msgid "Show the image with lightbox or not."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1090
+msgid "Insert Image Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1198
+msgid "Insert Portfolio Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1231
+#: theme/shortcodes/tinymce/config.php:1335
+#: theme/shortcodes/tinymce/config.php:1506
+msgid "The number of columns."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1294
+#: theme/shortcodes/tinymce/config.php:1387
+msgid "Paging"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1295
+#: theme/shortcodes/tinymce/config.php:1388
+msgid "Show the paging."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1303
+msgid "Insert Post Grid Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1396
+msgid "Insert Post Left Grid Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1414
+#: theme/shortcodes/tinymce/config.php:1468
+#: theme/shortcodes/tinymce/config.php:1533
+msgid ""
+"The image ID's to pull posts from. Can be entered as a comma separated list."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1450
+msgid "Insert Post Image Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1515
+msgid "Insert Post Masonry Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1592
+#: theme/shortcodes/tinymce/config.php:2121
+msgid "Mode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1593
+#: theme/shortcodes/tinymce/config.php:2122
+msgid "Type of transition between slides."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1602
+msgid "Insert Post Slider Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1620
+msgid "The title for progress bar."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1625
+#: theme/shortcodes/tinymce/config.php:1805
+msgid "Percent"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1626
+msgid "The percent for progress bar."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1630
+msgid "Insert Progress Bar Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1644
+msgid "Insert Price Table Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1652
+msgid "The title for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1657
+msgid "Currency"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1658
+msgid "The currency for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1663
+msgid "Price"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1664
+msgid "The price for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1669
+msgid "Sub Price"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1670
+msgid "The sub price for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1675
+msgid "Time"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1676
+msgid "The time for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1682
+msgid "The button text for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1687
+msgid "Button Link"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1688
+msgid "The button link for price table."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1694
+msgid "Add the price table content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1698
+msgid "Add Price Table"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1717
+msgid "The title for the latest blog."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1722
+msgid "Top Counts"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1728
+msgid "Last Counts"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1745
+msgid "Insert Latest Blog Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1763
+msgid "The style for message box."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1774
+msgid "Close"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1775
+msgid "The close button for message box."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1783
+msgid "Insert Message Box Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1800
+msgid "The title for number."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1806
+msgid "The percent for number."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1810
+msgid "Insert Number Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1824
+msgid "Insert Social Icons Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1831
+msgid "Select the type for the social icons."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1868
+msgid "Link of the social icon."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1872
+msgid "Add Social Icon"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1891
+msgid "The title for slogan."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1897
+msgid "The link for slogan."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1903
+#: theme/shortcodes/tinymce/config.php:1936
+msgid "Add the content."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1907
+msgid "Insert Slogan Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1924
+msgid "The title for tagline."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1930
+msgid "The link for tagline."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1940
+msgid "Insert Tagline Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1954
+msgid "Insert Team Members Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1961
+#: theme/shortcodes/tinymce/config.php:2001
+#: theme/shortcodes/tinymce/config.php:2045
+msgid "Avatar"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1962
+#: theme/shortcodes/tinymce/config.php:2002
+#: theme/shortcodes/tinymce/config.php:2046
+msgid "The image url for avatar."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1968
+#: theme/shortcodes/tinymce/config.php:2008
+#: theme/shortcodes/tinymce/config.php:2052
+msgid "The name for member."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1973
+#: theme/shortcodes/tinymce/config.php:2013
+#: theme/shortcodes/tinymce/config.php:2057
+msgid "Role"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1974
+#: theme/shortcodes/tinymce/config.php:2014
+#: theme/shortcodes/tinymce/config.php:2058
+msgid "The role for member."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1980
+#: theme/shortcodes/tinymce/config.php:2020
+#: theme/shortcodes/tinymce/config.php:2064
+msgid "Add the content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:1984
+msgid "Add Team Member"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2024
+msgid "Add Testimonial"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2038
+msgid "Insert Testimonial Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2068
+msgid "Add testimonial item"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2088
+msgid "The number of slider item."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2093
+msgid "Cache"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2094
+msgid "The cache time (in hour)."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2131
+msgid "Insert Twitter Carousel Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2146
+msgid "Insert Toggles Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2154
+msgid "Title of the toggle."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2160
+msgid "Add the toggle content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2164
+msgid "Add toggle"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2180
+msgid "Insert Tabs Shortcode"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2188
+#: theme/shortcodes/tinymce/config.php:2222
+msgid "Title of the tab."
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2194
+#: theme/shortcodes/tinymce/config.php:2228
+msgid "Add the tab content"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2198
+#: theme/shortcodes/tinymce/config.php:2232
+msgid "Add tab"
+msgstr ""
+
+#: theme/shortcodes/tinymce/config.php:2214
+msgid "Insert Left Tabs Shortcode"
+msgstr ""
+
+#: theme/shortcodes/twitter-carousel.php:58
+msgid "Follow Us"
+msgstr ""
+
+#: theme/shortcodes/twitter-carousel.php:61
+msgid "Oops, our Twitter feed is unavailable at the moment."
+msgstr ""
+
+#: theme/themewoot.php:207
+msgid "Top Navigation"
+msgstr ""
+
+#: theme/themewoot.php:208
+msgid "Bottom Navigation"
+msgstr ""
+
+#: theme/themewoot.php:694
+msgid "Theme Options"
+msgstr ""
+
+#: theme/themewoot.php:695
+msgid "Theme Skins"
+msgstr ""
+
+#: theme/themewoot.php:696
+msgid "Theme Fonts"
+msgstr ""
+
+#: theme/themewoot.php:850
+#, php-format
+msgid "%1$s Messages"
+msgstr ""
+
+#: theme/widgets/contact-details.php:26
+msgid "This widget will display a contact details section."
+msgstr ""
+
+#: theme/widgets/contact-details.php:27
+msgid "Twoot Contact Details"
+msgstr ""
+
+#: theme/widgets/contact-details.php:56 theme/widgets/contact-details.php:119
+#: woocommerce/order/order-details.php:108
+msgid "Email:"
+msgstr ""
+
+#: theme/widgets/contact-details.php:60 theme/widgets/contact-details.php:112
+msgid "Phone:"
+msgstr ""
+
+#: theme/widgets/contact-details.php:64 theme/widgets/contact-details.php:126
+msgid "Facebook:"
+msgstr ""
+
+#: theme/widgets/contact-details.php:68 theme/widgets/contact-details.php:133
+msgid "Twitter:"
+msgstr ""
+
+#: theme/widgets/contact-details.php:105
+msgid "Address:"
+msgstr ""
+
+#: theme/widgets/contact-details.php:126 theme/widgets/contact-details.php:133
+msgid "Follow US"
+msgstr ""
+
+#: theme/widgets/social-icons.php:26
+msgid "This widget will display a social icons section."
+msgstr ""
+
+#: theme/widgets/social-icons.php:27
+msgid "Twoot Social Icons"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:14
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:18
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:17
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:19
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:58
+msgid ""
+"No shipping methods were found; please recalculate your shipping or continue "
+"to checkout and enter your full address to see if there is shipping "
+"available to your location."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:72 woocommerce/cart/cart-shipping.php:80
+#, php-format
+msgid "Sorry, shipping is unavailable %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:72 woocommerce/cart/cart-shipping.php:80
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:96
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals:"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:20
+#: woocommerce/checkout/form-purchase-summary.php:41
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26 woocommerce/cart/cart-totals.php:70
+#: woocommerce/cart/cart.php:132
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:79
+#: woocommerce/checkout/form-purchase-summary.php:89
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:95
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:28 woocommerce/checkout/form-pay.php:19
+#: woocommerce/order/order-details.php:22
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:68
+#: woocommerce/checkout/form-purchase-summary.php:30
+msgid "Price:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:78
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:133
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:133
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:45
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:22
+msgid "Create an account"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:46
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:50
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/order/order-details.php:119
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:34
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:53
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below."
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:15
+msgid "Returning customer"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:20
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:24
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:76
+msgid "Password"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+#: woocommerce/myaccount/form-login.php:67
+#: woocommerce/myaccount/form-login.php:84
+msgid "Login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:29
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:36
+msgid "Create an Account"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:37
+msgid "If you are a new customer please proceed to the next step!"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:38
+msgid "Continue"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:20
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:78
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:87
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-purchase-summary.php:12
+msgid "Purchase Summary"
+msgstr ""
+
+#: woocommerce/checkout/form-purchase-summary.php:29
+msgid "Qty:"
+msgstr ""
+
+#: woocommerce/checkout/form-purchase-summary.php:32
+#: woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/form-purchase-summary.php:44
+msgid "Cart Discount"
+msgstr ""
+
+#: woocommerce/checkout/form-purchase-summary.php:83
+msgid "Order Discount"
+msgstr ""
+
+#: woocommerce/checkout/form-purchase-summary.php:101
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:59
+#: woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:14
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:50
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:52
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:61
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:61
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:68
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:77
+msgid "I have read and accept the"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:77
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28 woocommerce/myaccount/my-orders.php:73
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36 woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:17 woocommerce/loop/add-to-cart.php:41
+#: woocommerce/loop/add-to-cart.php:50
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:33
+msgid "Select options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:37
+msgid "View options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:46
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:21
+#: woocommerce/order/order-details.php:130
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:40
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:20
+#: woocommerce/myaccount/form-login.php:52
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:35
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:45
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:85
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:90
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:18
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:24
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:36
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:28
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:86
+msgid "View"
+msgstr ""
+
+#: woocommerce/order/order-details.php:18
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:68
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:103
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:109
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:123
+#: woocommerce/order/order-details.php:134
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:30
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:32
+#: woocommerce/single-product/review.php:34
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:59
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:108
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:24
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:72
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:101
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:19
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/related.php:30
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:33
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:41
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""

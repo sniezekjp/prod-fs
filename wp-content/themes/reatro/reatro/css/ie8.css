@@ -1,0 +1,17 @@
+/*CSS Fixed For IE8*/
+.ie8 a.top-widgets-area-switch:hover {
+	filter: alpha(opacity=90);
+}
+
+.ie8 .img-hover .zoom {
+	filter: alpha(opacity=0);
+}
+
+.ie8 .wp-caption .wp-caption-text,
+.ie8 .post-slider-wrapper .bx-wrapper .bx-caption,
+.ie8 .post-image-wrapper ul li .image-caption,
+.ie8 .post-masonry-wrapper ul li .caption,
+.ie8 .shortcode-image .image-caption {
+	background-color: #000;
+	filter: alpha(opacity=80);
+}

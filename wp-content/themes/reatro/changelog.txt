@@ -1,0 +1,466 @@
+v1.2.9 (Sep, 14 2015)
+--Update woocommerce widgets
+
+edited: theme-woocommerce/widgets/class-wc-widget-best-sellers.php
+edited: theme-woocommerce/widgets/class-wc-widget-cart.php
+edited: theme-woocommerce/widgets/class-wc-widget-featured-products.php
+edited: theme-woocommerce/widgets/class-wc-widget-onsale.php
+edited: theme-woocommerce/widgets/class-wc-widget-random-products.php
+edited: theme-woocommerce/widgets/class-wc-widget-recently-viewed.php
+edited: theme-woocommerce/widgets/class-wc-widget-recent-products.php
+edited: theme-woocommerce/widgets/class-wc-widget-top-rated-products.php
+
+
+
+v1.2.8 (Aug 31, 2015)
+--Update theme to wordpress 4.3.
+--Update the Layerslider.
+--Updated twoot toolkit to version 1.1.3.
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/widgets/contact-details.php
+edited: theme/widgets/social-icons.php
+edited: plugins/LayerSlider.zip
+edited: plugins/twoot-toolkit.zip
+edited: woocommerce
+
+
+v1.2.7 (Jul 13, 2015)
+--Fixed prettyPhoto security issue.
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+
+
+
+v1.2.6 (May 22, 2015)
+
+--Updated layer slider to latest version: 5.4.0
+--Fixed wordpress security issue.
+--Fixed woocommerce language issue.
+
+edited: woocommerce/
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/functions/function-frontend.php
+edited: theme/classes/class-tgm-plugin-activation.php
+edited: plugins/LayerSlider.zip
+
+
+
+
+
+
+v1.2.4 (Dec 30, 2014)
+--Updated layer slider.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: plugins/LayerSlider.zip
+
+
+
+
+v1.2.3 (Sep 09, 2014)
+--Fixed the user link permalink for woocommerce.
+--Updated layer slider.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme-woocommerce/woo.php
+edited: theme/functions/function-backend.php
+edited: plugins/LayerSlider.zip
+
+
+
+
+v1.2.2 (Jun 08, 2014)
+--Fixed the login issue for woocommerce
+
+edited: woocommerce/checkout/form-login.php
+
+
+
+
+v1.2.1 (May 07, 2014)
+--Fixed post carousel issue.
+--Updated twoot toolkit to version 1.1.2
+
+edited: style.css
+edited: css/fonts.css
+edited: css/common.css
+edited: functions.php
+edited: theme/themewoot.php
+edited: js/jquery.bxslider.js
+edited: plugins/twoot-toolkit.zip
+edited: theme/functions/function-backend.php
+edited: theme/functions/custom-css.php
+edited: theme-woocommerce/woo.css
+edited: theme-woocommerce/skin-blue.css
+edited: theme-woocommerce/skin-brown.css
+edited: theme-woocommerce/skin-cyan.css
+edited: theme-woocommerce/skin-green.css
+edited: theme-woocommerce/skin-navy.css
+edited: theme-woocommerce/skin-olive.css
+edited: theme-woocommerce/skin-orange.css
+edited: theme-woocommerce/skin-pink.css
+edited: theme-woocommerce/skin-purple.css
+edited: theme-woocommerce/skin-red.css
+edited: woocommerce/checkout/form-checkout.php
+edited: woocommerce/checkout/review-order.php
+edited: woocommerce/checkout/form-purchase-summary.php
+
+
+
+
+v1.2.0 (Apr 28, 2014)
+--Fixed shortcode button issue on wp3.9
+--Updated twoot toolkit to version 1.1.1
+
+added: theme/shortcodes/tinymce
+edited: style.css
+edited: theme/themewoot.php
+
+
+
+v1.1.9 (Apr 09, 2014)
+--Fixed the checkout page for guest user issue.
+--Added sidebar for woocommerce category/tag.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/options/theme_opt.php
+edited: theme-woocommerce/woo.php
+edited: woocommerce/checkout/form-billing.php
+edited: woocommerce/content-product.php
+
+
+
+v1.1.8 (Mar 09, 2014)
+--Fixed the video shortcode issue in backend.
+--Updated the .po language files.
+--Updated the LayerSlider to version 5.1.1
+--Updated the twoot toolkit plugin.
+--Removed the instagram widget.
+
+edited: style.css
+edited: functions.php
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/shortcodes/tinymce/config.php
+edited: plugins/LayerSlider.zip
+edited: plugins/twoot-toolkit.zip
+edited: languages/de_DE.po
+edited: languages/en_US.po
+edited: languages/es_ES.po
+edited: languages/fr_FR.po
+edited: languages/gl_ES.po
+edited: languages/it_IT.po
+edited: languages/ko_KR.po
+edited: languages/lt_LT.po
+edited: languages/nl_NL.po
+edited: languages/pt_BR.po
+edited: languages/ru_RU.po
+
+
+
+
+
+v1.1.7 (Feb 24, 2014)
+--Fixed the custom admnin logo issue.
+--Added supports for woocommerce 2.1.2
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/functions/function-frontend.php
+edited: theme-woocommerce/
+edited: woocommerce/
+
+
+
+
+
+v1.1.6 (Feb 10, 2014)
+--Fixed the pagination on frontpage issue.
+--Fixed the cart languages issue.
+--Fixed the contact details widget language issue.
+--Added remove product item button on mobile.
+--Updated layerslider to version 5.0.2.
+
+edited: style.css
+edited: css/responsive.css
+edited: theme/themewoot.php
+edited: theme/classes/class-query.php
+edited: theme/functions/function-backend.php
+edited: theme/widgets/contact-details.php
+edited: plugins/LayerSlider.zip
+edited: theme-woocommerce/woo.php
+
+
+
+
+v1.1.5 (Dec 16, 2013)
+--Fixed the term filter issue on wordpress 3.8.
+--Imporoved the theme options style.
+--Updated layerslider to version 4.6.6.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/classes/class-template-grid.php
+edited: theme/functions/function-backend.php
+edited: theme/assets/css/theme-options.css
+edited: plugins/LayerSlider.zip
+
+
+
+v1.1.4 (Dec 10, 2013)
+--Fixed the post slider issue.
+edited: style.css
+edited: theme/themewoot.php
+edited: js/theme-init.js
+edited: theme/shortcodes/post-slider.php
+
+
+
+v1.1.3 (Dec 05, 2013)
+--Fixed the multipurpose shopping methods css issue.
+--Changed the auto player for product slider.
+edited: style.css
+edited: theme/themewoot.php
+edited: js/theme-init.js
+edited: theme-woocommerce/woo.css
+
+
+
+
+v1.1.2 (Nov 28, 2013)
+--Improved the query function for tax posts.
+--Fixed the 404 error of theme options on some server.
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/functions/function-common.php
+edited: theme/classes/class-backend-scripts.php
+
+
+v1.1.1 (Nov 08, 2013)
+--Fixed the variable product select issue.
+--Fixed the admin page 404 error.
+--Fixed the shopping and address text error.
+--Updated Twoot Toolkit to version 1.0.7
+edited: functions.php
+edited: style.css
+edited: theme/themewoot.php
+edited: js/theme-init.js
+edited: theme-woocommerce/woo.css
+edited: theme-woocommerce/skin-blue.css
+edited: theme-woocommerce/skin-brown.css
+edited: theme-woocommerce/skin-cyan.css
+edited: theme-woocommerce/skin-green.css
+edited: theme-woocommerce/skin-navy.css
+edited: theme-woocommerce/skin-olive.css
+edited: theme-woocommerce/skin-orange.css
+edited: theme-woocommerce/skin-pink.css
+edited: theme-woocommerce/skin-purple.css
+edited: theme-woocommerce/skin-red.css
+edited: theme-woocommerce/woo-generator.php
+edited: woocommerce/single-product/add-to-cart/variable.php
+edited: theme/classes/class-checked.php
+edited: theme/functions/function-frontend.php
+
+
+
+
+
+v1.1.0 (Nov 07, 2013)
+--Added updated notice for tgm plugin.
+--Improved woocommerce scripts.
+--Updated LayerSlider to version 4.6.5
+--Updated Twoot Toolkit to version 1.0.5
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/classes/class-tgm-plugin-activation.php
+edited: theme-woocommerce/woo.php
+
+
+
+
+
+v1.0.9 (Oct 22, 2013)
+--Improved the main css file. 
+--Improved the templates.
+--Updated the plugin: twoot toolkit to version 1.0.4
+edited: style.css
+edited: theme/themewoot.php
+edited: templates/template-blog.php
+edited: templates/template-blog-full.php
+edited: theme/functions/function-backend.php
+added: theme/widgets/contact-details.php
+added: theme/widgets/social-icons.php
+added: theme/shortcodes/portfolio-carousel.php
+added: theme/shortcodes/blog-carousel.php
+added: theme/shortcodes/post-grid.php
+added: theme/shortcodes/audio.php
+added: theme/shortcodes/blog.php
+added: theme/shortcodes/blog-full.php
+added: theme/shortcodes/button.php
+added: theme/shortcodes/column.php
+added: theme/shortcodes/faqs.php
+added: theme/shortcodes/gmap.php
+added: theme/shortcodes/icon.php
+added: theme/shortcodes/image.php
+added: theme/shortcodes/left-tab.php
+added: theme/shortcodes/post-images.php
+added: theme/shortcodes/post-masonry.php
+added: theme/shortcodes/post-slider.php
+added: theme/shortcodes/progress-bar.php
+added: theme/shortcodes/social-icons.php
+added: theme/shortcodes/tab.php
+added: theme/shortcodes/video.php
+added: template-blog.php
+added: template-blog-full.php
+added: template-archive.php
+added: template-block.php
+added: template-coming-soon.php
+added: template-contact.php
+added: template-portfolio.php
+removed: templates/template-blog.php
+removed: templates/template-blog-full.php
+removed: templates/template-archive.php
+removed: templates/template-block.php
+removed: templates/template-coming-soon.php
+removed: templates/template-contact.php
+removed: templates/template-portfolio.php
+
+
+
+
+
+v1.0.8(Oct 05, 2013)
+--Improved page metabox funcation. 
+--Improved backend class funcation.
+--Improved page slidershow funcation.
+--Updated the plugin: twoot toolkit to version 1.0.3
+edited: style.css
+edited: theme/classes/class-backend-scripts.php
+edited: theme/functions/function-backend.php
+edited: header.php
+edited: theme/themewoot.php
+edited: plugins/twoot-toolkit.zip
+added: theme/shortcodes/ads.php
+added: theme/shortcodes/gmap.php
+added: theme/shortcodes/icon-boxes.php
+added: theme/shortcodes/latest-blog.php
+added: theme/shortcodes/post-left-grid.php
+added: theme/shortcodes/slogan.php
+added: theme/shortcodes/tagline.php
+added: theme/shortcodes/testimonial-carousel.php
+added: theme/shortcodes/number.php
+added: theme/shortcodes/team-members.php
+added: theme/shortcodes/testimonial.php
+added: theme/shortcodes/price-table.php
+added: theme/shortcodes/accordion.php
+added: theme/shortcodes/faqs.php
+added: theme/shortcodes/toggle.php
+added: theme/shortcodes/twitter-carousel.php
+added: theme/shortcodes/message-box.php
+
+
+v1.0.7(Sep 27, 2013)
+--Improved the woocommerce demo store notice.
+--Improved the woocommerce account page.
+--Improved the images preload.
+--Updated the plugin: twoot toolkit to version 1.0.2
+--Added background image options for block.
+edited: style.css
+edited: header.php
+edited: functions.php
+edited: js/theme-init.js
+edited: functions/custom-css.php
+edited: theme/themewoot.php
+edited: theme/functions/function-backend.php
+edited: theme/metaboxes/meta-content-block.php
+edited: theme/options/theme_font.php
+edited: theme-woocommerce/woo.php
+edited: theme-woocommerce/woo-generator.php
+edited: theme-woocommerce/woo.css
+edited: woocommerce/myaccount/form-login.php
+added: theme/shortcodes/block.php
+
+
+v1.0.6(Sep 20, 2013)
+--Fixed bottom social icons issue.
+--Improved the woocommerce cart for version 2.0.14.
+edited: style.css
+edited: theme/themewoot.php
+edited: footer.php
+edited: templates/template-coming-soon.php
+
+
+v1.0.5(Sep 19, 2013)
+--Fixed payment issue for woocommerce plugin.
+--Improved the plugin updated message.
+--Updated the plugin: twoot toolkit to version 1.0.1
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/classes/class-checked.php
+edited: theme/functions/function-backend.php
+edited: woocommerce/checkout/form-checkout.php
+edited: woocommerce/checkout/form-purchase-summary.php
+
+
+v1.0.4(Sep 17, 2013)
+--Fixed a php error on some hosting.
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/metaboxes/meta-gallery.php
+edited: theme/metaboxes/meta-audio.php
+edited: theme/metaboxes/meta-content-block.php
+edited: theme/metaboxes/meta-page.php
+edited: theme/metaboxes/meta-portfolio.php
+edited: theme/metaboxes/meta-video.php
+
+
+v1.0.3(Sep 14, 2013)
+--Fixed sticky header issue on fixed layout.
+edited: style.css
+edited: theme/themewoot.php
+
+
+v1.0.2(Sep 13, 2013)
+--Fixed the select bug on iphone 4s.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: js/theme-init.js
+edited: theme-woocommerce/woo.css
+edited: theme-woocommerce/skin-blue.css
+edited: theme-woocommerce/skin-brown.css
+edited: theme-woocommerce/skin-cyan.css
+edited: theme-woocommerce/skin-green.css
+edited: theme-woocommerce/skin-navy.css
+edited: theme-woocommerce/skin-olive.css
+edited: theme-woocommerce/skin-orange.css
+edited: theme-woocommerce/skin-pink.css
+edited: theme-woocommerce/skin-purple.css
+edited: theme-woocommerce/skin-red.css
+
+
+v1.0.1(Sep 10, 2013)
+--Fixed a small version number bug.
+
+edited: style.css
+edited: theme/themewoot.php
+edited: theme/classes/class-checked.php
+edited: theme/classes/class-template-grid.php
+edited: templates/template-portfolio.php
+
+
+
+
+v1.0.0(Sep 9, 2013)
+--Initial Release 

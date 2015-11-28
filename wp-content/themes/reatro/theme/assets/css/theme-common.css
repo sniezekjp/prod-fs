@@ -1,0 +1,97 @@
+/*Metabox*/
+.theme-metabox-table .theme-metabox-box { 
+	padding: 15px 0; 
+}
+
+.theme-metabox-table .theme-metabox-name {
+	float: left;
+	width: 300px;
+	text-align: left; 
+	font-size: 12px;
+}
+
+.theme-metabox-table .theme-metabox-content {
+	margin-left: 320px;
+}
+
+.theme-metabox-table .theme-metabox-desc {
+	display: block;
+	color: #999;
+	font-size: 11px;
+	font-weight: 100;
+}
+
+.theme-metabox-table td .theme-metabox-block {
+	display: block;
+	margin-top: 10px;
+}
+
+.theme-metabox-table .checkbox-item {
+	margin-bottom: 5px;
+}
+
+.theme-metabox-table .checkbox-item label { padding-left: 5px; }
+
+.theme-metabox-table textarea { width: 98%; }
+
+.theme-metabox-table select { width: 250px; }
+
+.theme-metabox-table .theme-metabox-checkbox-desc { padding-left: 5px; }
+
+.theme-metabox-table .radio-in-line { float: left; margin-right: 15px; }
+
+.theme-metabox-table .unit { padding-left: 10px; }
+
+.theme-metabox-table .theme-metabox-desc span { 
+	color: #DD1144; 
+	background: #F7F7F9; 
+	border: 1px solid #E1E1E8; 
+	padding: 2px 5px; 
+	font-weight: bold;
+	font-size: 10px; 
+}
+
+.theme-metabox-table select[multiple="true"], 
+.theme-metabox-table select[multiple="true"].chosen option {
+	min-width: 300px;
+	width:auto !important;
+	width:300px;
+}
+
+.theme-metabox-table .the-color-picker {
+	text-transform: uppercase;
+}
+
+
+
+
+/*Columns*/
+.column-catID { width: 80px; }
+.column-portfolio_thumbnail { width: 120px; }
+.column-portfolio_thumbnail img { 
+	border: 1px solid #E5E5E5; 
+	background: #FFF; 
+	padding: 3px; 
+	width: 60px; 
+	height: 60px; 
+}
+.column-content_block_ids { width: 100px; }
+span.post-type-id-class,
+span.content-block-ids-class { 
+	background: #EEE; 
+	border: 1px solid #DFDFDF; 
+	padding: 3px 15px; 
+	font-weight: bold;
+}
+
+
+
+
+/*Widgets*/
+.theme-widget-wrap { margin-bottom: 15px;}
+.theme-widget-wrap label { display: block; margin-bottom: 10px; font-size: 12px; }
+.theme-widget-wrap input[type="text"], 
+.theme-widget-wrap textarea { width: 98%;}
+.theme-widget-wrap select { width: 200px; }
+.theme-shorttext input[type="text"] { width: 150px; }
+.theme-description { color: #666; font-size: 11px; padding: 20px 0 0; margin: 0; }

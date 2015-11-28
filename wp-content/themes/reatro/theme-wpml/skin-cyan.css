@@ -1,0 +1,20 @@
+.wpml-language-switcher .actived-language a {
+	color: #FFF;
+}
+
+.wpml-language-switcher .actived-language a:hover {
+	color: #18ADB5;
+}
+
+.wpml-language-switcher ul {
+	background: #50535A;
+}
+
+.wpml-language-switcher ul li a {
+	color: #FFF;
+}
+
+.wpml-language-switcher ul li a:hover {
+	background: #18ADB5;
+	color: #FFF;
+}

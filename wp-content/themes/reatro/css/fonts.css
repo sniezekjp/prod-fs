@@ -1,0 +1,522 @@
+/* #Content
+================================================== */
+body,
+button, input, select, textarea { 
+	font-family: Arial, Helvetica, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.button-small {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.button-medium {
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+.button-large {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+
+
+
+
+/* #Logo
+================================================== */
+.site-logo #logo h1.title {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 48px;
+	font-size: 4.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px; 
+	letter-spacing: 0.3rem; 
+}
+
+
+
+/* #Navigation
+================================================== */
+
+/*Menu*/
+#top-menu ul li a,
+.responsive-menu ul li a {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight:normal;
+	font-style:normal;
+	text-transform: uppercase;
+}
+
+#top-menu ul li ul li a,
+.responsive-menu ul li ul li a {
+	font-family: Arial, Helvetica, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight:normal;
+	font-style:normal;
+	text-transform: none;
+}
+
+#woo-user-menu ul li a {
+	font-size: 12px;
+	font-size: 1.2rem;
+	text-transform: none;
+}
+
+#woo-user-menu ul li ul li a {
+	font-size: 12px;
+	font-size: 1.2rem;
+	text-transform: none;
+}
+
+
+
+/*Mini Cart*/
+#woo-mini-cart ul li a {
+	font-size: 12px;
+	font-size: 1.2rem;
+	text-transform: none;
+}
+
+
+
+/*Page Header*/
+.site-page-header h1.entry-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+}
+
+
+
+
+/* #Hgroup
+================================================== */
+h1 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 30px;
+	font-size: 3.0rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h2 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h3 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h4 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h5 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h6 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+
+
+/* #Footer
+================================================== */
+.site-footer .site-copy {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	text-transform: none;
+}
+
+#bottom-menu ul li a {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight:normal;
+	font-style:normal;
+	text-transform: uppercase;
+}
+
+
+
+
+/* #Widgets
+================================================== */
+.widget h3 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
+/* #Shortcodes
+================================================== */
+code,
+.shortcode-pre .code {
+	font-family: 'Consolas', 'Monaco', 'Courier', serif;
+	line-height: 1.5;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.shortcode-team-members h3.name,
+.shortcode-testimonial-carousel .testimonial-carousel li h3.name,
+.shortcode-testimonial h3.name {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+.shortcode-team-members .role,
+.shortcode-testimonial-carousel .testimonial-carousel li .role,
+.shortcode-testimonial .role {
+	line-height: 1.2;
+	font-size: 11px;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+.shortcode-testimonial-carousel .testimonial-carousel li .content {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+.shortcode-latest-blog .the-top-loop .entry-date .day {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.shortcode-latest-blog .entry-date .month {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-size: 1.0rem;
+}
+
+.shortcode-latest-blog h3.title {
+	font-family:  Georgia, Times, serif, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+.shortcode-progress-bar h5.title {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+
+
+
+
+/*Number*/
+.shortcode-number .count {
+	font-weight: bold;
+	font-size: 48px;
+	font-size: 4.8rem;
+	line-height: 1.2;
+}
+
+.shortcode-number h5.title {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+
+
+
+/*Slogan*/
+.shortcode-slogan .slogan-wrap h5.title {
+	font-size: 20px;
+	font-size: 2.0rem;
+	text-transform: uppercase;
+}
+
+.shortcode-slogan .slogan-wrap .content {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+
+
+
+/*Tagline*/
+.shortcode-tagline .tagline-wrap h5.title {
+	font-size: 20px;
+	font-size: 2.0rem;
+	line-height: 1.2;
+}
+
+.shortcode-tagline .tagline-wrap .content {
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+.shortcode-tagline .tagline-wrap .goto {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+
+
+
+/*Ads*/
+.shortcode-ads .ad-item .title {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+
+
+
+
+/* #Post List
+================================================== */
+
+/*Common*/
+.the-grid-list .filter-menu ul.filter li a {
+	font-size: 11px;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+.the-grid-list ul li .item-head h3.title {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.the-grid-list ul li .item-head .cats {
+	font-size: 11px;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+
+
+/*Post Carousel & Related Posts & Comment*/
+.shortcode-latest-blog h5.sub-title,
+.the-carousel-list .carousel-title,
+.related-posts .sub-title,
+#comments #comments-title,
+#respond #reply-title {
+	font-family:  Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+/*Blog Carousel*/
+.the-blog-list ul li.post-item .item-content .title {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+
+
+/*Post Blog*/
+.post-blog .post-item h3.entry-title,
+.post-full-blog .the-blog-list li.post-item .entry-title {
+	font-family:  Georgia, Times, serif, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+
+
+/*Post Portfolio*/
+.post-portfolio h1.entry-title {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+.post-portfolio .entry-meta .client-url .button {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+
+
+
+
+/* #Pagination
+================================================== */
+.pagination .pagin {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.pagination .prev,
+.pagination .next {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-size: 1.1rem;
+}
+
+
+
+
+
+
+/* #Contact Page
+================================================== */
+.contact-page .wpcf7 .text-wrap .lable {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* #Coming soon Page
+================================================== */
+#page-coming-soon .countdown .title {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-size: 2.8rem;
+}
+
+#page-coming-soon .countdown .clock .text {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+#page-coming-soon .countdown .clock .time  {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-size: 3.2rem;
+	line-height: 1.2;
+}
+
+
+
+
+
+
+/* #Woocommerce
+================================================== */
+.woo ul.products li .item-head h3.title,
+.woo ul.products li.product-category  h3.title {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.woo ul.products li.product-item .item-head .price .amount,
+.woo .entry-summary .price .amount,
+.woo .woocommerce-cart-table table td.product-subtotal {
+	font-family: Helvetica, Arial, serif, sans-serif;
+}
+
+.woo ul.products li.product-item .item-head .price .amount,
+.woo .entry-summary .price .amount {
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.woo ul.products li.product-item .item-head .price .amount {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+.woo .entry-summary .price .amount {
+	font-size: 28px;
+	font-size: 2.8rem;
+}
+
+.woo ul.products li.product-item .item-head .price del .amount,
+.woo ul.products li.product-item .item-head .price .from,
+.woo .entry-summary .summary-content .price del .amount,
+.woo .entry-summary .summary-content .price .from {
+	font-weight: normal;
+}
+
+.woo ul.products li.product-item .item-head .price .from {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.woo ul.products li.product-item .item-head .cats {
+	font-size: 11px;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+.woo .entry-summary h1.entry-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+.woo .woocommerce-tabs h2.entry-title {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.woo .woocommerce-cart-table table th,
+.woo .woocommerce-cart-table .cart_totals h2,
+.woo .woocommerce-cart-table .coupon h3,
+.woo .cart-collaterals h2,
+.woo .checkout-customer h3,
+.woo .entry-purchase-summary h2,
+.woo .create-new-account h3,
+.woo .billing-form h3,
+.woo .shipping-form h3,
+.woo .register-form h2,
+.woo .login-form h2,
+.woo .user-center-wrap h2.title,
+.woo .edit-address h3 {
+	font-family: Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}

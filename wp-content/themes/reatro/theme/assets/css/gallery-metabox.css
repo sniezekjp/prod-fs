@@ -1,0 +1,33 @@
+#metabox-gallery-list {
+	margin-left: -10px;
+}
+
+#metabox-gallery-list li {
+  float: left;
+  text-align: center;
+  width: 120px;
+  margin: 10px 0 10px 10px;
+  cursor: move;
+  border: 1px solid #CCC;
+  padding: 5px;
+}
+
+#metabox-gallery-list li img {
+	width: 120px;
+	height: 120px;
+}
+
+#metabox-gallery-list li a {
+	font-size: 11px;
+	text-decoration: none;
+	border: 1px solid #CCC;
+	display: inline-block;
+	height: 21px;
+	line-height: 21px;
+	width: 90px;
+	margin: 0;
+}
+
+#metabox-gallery-list li a.remove-image {
+	margin-top: 5px;
+}

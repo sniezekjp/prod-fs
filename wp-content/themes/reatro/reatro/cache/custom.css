@@ -1,0 +1,145 @@
+/*This is the custom css via theme options.*/
+.site-logo { 
+	padding-top: 40px; 
+	padding-bottom: 40px; 
+}
+body,
+button, input, select, textarea { 
+	font-family: 'Open Sans', Arial, Helvetica, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+.site-logo #logo h1.title {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+	font-size: 48px;
+	font-size: 4.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#top-menu ul li a,
+.responsive-menu ul li a {
+	font-family: 'Headland One', Georgia, Times, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#top-menu ul li ul li a,
+.responsive-menu ul li ul li a {
+	font-family: 'Open Sans', Arial, Helvetica, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h1 {
+	font-family: 'Headland One', Georgia, Times, serif, sans-serif;
+	font-size: 30px;
+	font-size: 3rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h2 {
+	font-family: 'Headland One', Georgia, Times, serif, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h3 {
+	font-family: 'Headland One', Georgia, Times, serif, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h4 {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h5 {
+	font-family: 'Headland One', Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+h6 {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-transform: none;
+}
+#bottom-menu ul li a {
+	font-family: 'Headland One', Georgia, Times, serif, sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.site-footer .site-copy {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.widget h3 {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.shortcode-team-members h3.name,
+.shortcode-testimonial-carousel .testimonial-carousel li h3.name,
+.shortcode-testimonial h3.name,
+.shortcode-latest-blog h3.title,
+.the-grid-list ul li .item-head h3.title,
+.the-blog-list ul li.post-item .item-content .title,
+.post-blog .post-item h3.entry-title,
+.post-full-blog .the-blog-list li.post-item .entry-title,
+.post-portfolio h1.entry-title,
+.woo ul.products li .item-head h3.title,
+.woo ul.products li.product-category  h3.title,
+.woo .entry-summary h1.entry-title {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+}
+.shortcode-latest-blog h5.sub-title,
+.the-carousel-list .carousel-title,
+.related-posts .sub-title,
+#comments #comments-title,
+#respond #reply-title,
+.woo .woocommerce-tabs h2.entry-title,
+.woo .woocommerce-cart-table table th,
+.woo .woocommerce-cart-table .cart_totals h2,
+.woo .woocommerce-cart-table .coupon h3,
+.woo .cart-collaterals h2,
+.woo .checkout-customer h3,
+.woo .entry-purchase-summary h2,
+.woo .create-new-account h3,
+.woo .billing-form h3,
+.woo .shipping-form h3,
+.woo .register-form h2,
+.woo .login-form h2,
+.woo .user-center-wrap h2.title,
+.woo .edit-address h3 {
+	font-family: 'Droid Serif', Georgia, Times, serif, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.woo ul.products li.product-item .item-head .price .amount,
+.woo .entry-summary .price .amount,
+.woo .woocommerce-cart-table table td.product-subtotal {
+	font-family: 'Lato', Helvetica, Arial, serif, sans-serif;
+}
+
+body {  background: #F2F2F2 }
+
+

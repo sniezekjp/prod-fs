@@ -1,0 +1,135 @@
+a:active, a:focus { background: none; }
+
+.hide { display: none;}
+
+.fixed {
+	height: 100%;
+	overflow: hidden;
+}
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } 
+.clearfix { display: inline-block; } /* Hide from IE Mac \*/ 
+.clearfix { display: block; } /* End hide from IE Mac */ 
+
+#message { margin-top: 30px; }
+
+.theme-options-page {}
+
+.theme-options-page-title span {
+	color: #8AA33E;
+	background: #E5E5E5;
+	padding: 3px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 15px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.theme-options-page #tab-container .tabs {
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.theme-options-page #tab-container .tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 2px;
+}
+
+.theme-options-page #tab-container .tabs li a {
+	display: block;
+	outline: none;
+	height: 37px;
+	line-height: 37px;
+	padding: 0 15px;
+	background: #E5E5E5;
+	color: #333;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.theme-options-page #tab-container .tabs li a:hover,
+.theme-options-page #tab-container .tabs li a.active {
+	background: #888;
+	color: #FFF;
+}
+
+.theme-options-page #tab-container .tabs-content {
+}
+
+.theme-options-group {
+	margin: 40px 0;
+}
+
+.theme-options-group .sub-title {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.theme-options-group .group {
+	padding: 10px 15px;
+}
+
+.theme-options-group .group:last-child {
+	border-bottom: none;
+}
+
+.theme-options-group .group h4.title {
+	margin: 0;
+	float: left;
+	width: 220px;
+	font-weight: normal;
+}
+
+.theme-options-group .group .box {
+	margin-left: 220px;
+}
+
+.theme-options-group .group .description { 
+	margin-top: 10px;  
+	color: #999; 
+}
+
+.theme-options-group .group .description span { 
+	color: #DD1144; 
+	background: #F7F7F9; 
+	border: 1px solid #E1E1E8; 
+	padding: 2px 5px; 
+	margin: 0 5px;  
+	font-weight: bold;
+	font-size: 10px; 
+}
+
+.theme-options-group .group .radios-wrap label {
+	padding-left: 5px;
+}
+
+.theme-options-group .group .upload-wrap .or { 
+	color: #999; 
+	padding: 0 10px; 
+	font-size: 11px;
+}
+
+.theme-options-page .group .chosen {
+	width: 500px;
+}
+
+.theme-options-page .group select {
+	width: 300px;
+}
+
+.theme-options-page .group .code {
+	width: 99%;
+}
+
+.theme-options-page .submit {
+	padding-bottom: 20px;
+	padding-top: 0;
+}
