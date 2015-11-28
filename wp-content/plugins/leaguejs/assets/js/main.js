@@ -31,7 +31,22 @@
         subTeams('Girls',team_menu.Girls);
     }
 
+    function jps_menu_stick(){
+        var menu = $('.site-menu'); 
+        menu.wrap('<div class="stick-container"></div>');
+        
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+            if (scroll >= 180) {
+                menu.addClass("stick");
+            } else {
+                menu.removeClass("stick");
+            }
+        });
+    }
+
 	$(document).ready(function() {
 		jps_team_menu();
+        jps_menu_stick();
 	});
 })(jQuery)

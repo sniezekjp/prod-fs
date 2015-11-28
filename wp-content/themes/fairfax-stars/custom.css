@@ -11,3 +11,53 @@ h3.title a {
 	width: 80px;
 	float: right;
 }
+
+/* STICKY MENU */
+.stick-container{
+    min-height: 47px;
+}
+.stick{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+}
+
+.admin-bar .stick{
+    top: 28px;
+}
+
+#top-menu li:hover{
+    cursor:pointer;
+}
+#top-menu ul li ul li ul li{
+    height:auto; 
+    line-height: 21px;
+}
+#top-menu ul li ul li ul li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.season{
+    float:left;
+}
+
+.season a{
+    color: white;
+    padding: 10px;
+    background-color: rgba(163,68,62,1);
+    margin-right: 10px;
+}
+.season a:hover{
+    background-color:black;
+}
+
+.team-list-item a{
+    color: rgba(163,68,62,1);
+}
+
+.team-list-item a:hover{
+    color:black;
+}
