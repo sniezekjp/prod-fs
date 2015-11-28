@@ -61,3 +61,9 @@ h3.title a {
 .team-list-item a:hover{
     color:black;
 }
+
+/* plus/minus buttons */
+.plus:focus,
+.minus:focus {
+    outline: none;
+}

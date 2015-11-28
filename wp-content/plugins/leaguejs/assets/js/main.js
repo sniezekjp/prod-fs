@@ -45,8 +45,23 @@
         });
     }
 
+    function jpsPlusMinus() {
+        $('.plus').click(function() {
+            var previous = $(this).prev();
+            previous.val(parseInt(previous.val()) + 1);
+        });
+        $('.minus').click(function() {
+            var next = $(this).next();
+            var min = parseInt(next.attr('min')) || 0;
+            var decrementedValue = parseInt(next.val()) - 1;
+            if(decrementedValue < min) { return; }
+            next.val(decrementedValue);
+        });
+    }
+
 	$(document).ready(function() {
 		jps_team_menu();
         jps_menu_stick();
+        jpsPlusMinus();
 	});
 })(jQuery)

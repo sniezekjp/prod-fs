@@ -14,6 +14,7 @@ require_once('lib/create_post_type.php');
 require_once('lib/league_register_taxonomy.php');
 require_once('lib/enqueue.php');
 require_once('lib/template-functions.php');
+require_once('lib/woocommerce.php');
 
 
 /**
