@@ -5,12 +5,11 @@
         //It should already have 'Team Archives'
         //var teams = $('#menu-item-418 .sub-menu');
         var teams = $('#top-menu [href=#teams]').parent().find('.sub-menu');
-        console.log(teams);
         
         //Append Boys/Girls Teams Function
         function subTeams(label, links){
         	if(!links.length) { return; }
-        	
+
             //create a list item that will be prepended to ul.sub-menu
             var menu = $('<li></li>');
             menu.append('<a href="javascript:void(0)">'+label+'</a>');
@@ -30,7 +29,6 @@
         
         subTeams('Boys', team_menu.Boys);
         subTeams('Girls',team_menu.Girls);
-        console.log(team_menu);
     }
 
 	$(document).ready(function() {
