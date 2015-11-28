@@ -9,40 +9,72 @@
  * It is also available through the world-wide-web at this URL:
  * http://www.gnu.org/licenses/gpl-3.0.txt
  */
-$layout = twoot_get_frontend_func('meta', 'layout')==false? 'right':twoot_get_frontend_func('meta', 'layout');
-$widget = twoot_get_frontend_func('meta', 'sidebar')==false? 'page':twoot_get_frontend_func('meta', 'sidebar');
+$format=get_post_format() === false? 'standard':get_post_format();
 ?>
 <?php get_header(); ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="site-content container pt pb clearfix">
 
-<?php if($layout=='left') { echo twoot_generator('sidebar', $widget, $layout); } ?>
+<article id="primary-wrapper" class="column eight">
+    <?php global $wp_query;  
+        p2p_type( 'players_to_teams' )->each_connected( $wp_query, array('order'=>'ASC'), 'teams' );
+    ?>
+    
+    <?php if (have_posts()) : the_post(); ?>
 
-<article id="primary-wrapper" class="column eight"<?php //twoot_layout_class();?>>
-	<div class="inner">
-
-	<?php echo twoot_generator('page_title', 'page'); ?>
-	
-<?php 
-    global $wp_query; 
-    p2p_type( 'players_to_teams' )->each_connected( $wp_query, array('post_status'=>'all'), 'teams' );
-?>
-
-	<?php if (have_posts()) : the_post(); ?>
-
-	<?php 
-	    $teams = $post->teams; 
-	    $player_name = get_the_title(); 
+    <?php 
+        $teams = $post->teams; 
+        $player_name = get_the_title();
     ?>
 
-	<div class="post-content">
-		<?php the_content(); ?>
-	</div>
-	<?php wp_link_pages( array( 'before' => '<div class="page-link">' . esc_attr__( 'Pages:', 'Twoot' ), 'after' => '</div>' ) ); ?>	
-	<?php endif; ?>
+    <div class="inner">
 
-	</div>
+    <div class="post-blog">
+    <div class="post-item">
+        <h3 class="entry-title"><?php the_title(); ?></h3>
+        <header class="entry-meta">
+            <?php edit_post_link( __( 'Edit', 'Twoot' ), '<span class="edit-link">', '</span>' ); ?>
+        </header>
+        <article class="entry-content clearfix">
+            <?php echo twoot_generator( 'load_template', 'format-' . $format ); ?>
+            <?php the_content(); ?>
+            <?php wp_link_pages( array( 'before' => '<div class="page-link">' . esc_attr__( 'Pages:', 'Twoot' ), 'after' => '</div>' ) ); ?>
+        </article>
+        <footer class="entry-meta clearfix">
+            <?php if($tags_list = get_the_tag_list( '', __( ', ', 'Twoot' ) )) : ?>
+            <span class="tags-link">
+                <?php printf( __( 'Tags: %1$s', 'Twoot' ), $tags_list ); ?>
+            </span>
+            <?php endif; ?>
+        </footer>
+    </div>
+    </div>
+    <!--end post blog-->
+
+    <?php 
+        // $q = new Twoot_Template_Related_Posts(array(
+        //  'title' => esc_attr__('Related Posts', 'Twoot'), 
+        //  'counts' => twoot_get_frontend_func('opt', 'opt', 'blog_related_counts'),
+        //  'order' => twoot_get_frontend_func('opt', 'opt', 'blog_related_order'),
+        //  'orderby' => twoot_get_frontend_func('opt', 'opt', 'blog_related_orderby'),
+        //  'post_type' => 'post',
+        //  'taxonomy'  => 'category'
+        // ));
+
+        // echo $q->post();
+    ?>
+
+    <?php 
+        // if(comments_open()) { 
+        //  comments_template( '', true ); 
+        // } 
+    ?>
+
+    </div>
+
+    <?php endif; ?>
+
 </article>
 <!--end #primary-->
 
@@ -57,15 +89,13 @@ $widget = twoot_get_frontend_func('meta', 'sidebar')==false? 'page':twoot_get_fr
                     </li>
                 <?php endforeach; wp_reset_postdata(); ?>
             </ul>
-		</div>
-		<div class="widget">
-    		<h3 class="title">#<?php echo $player_name; ?></h3>
-    		<?php stars_tagged_player_articles($player_name); ?>
-		</div>
+        </div>
+        <div class="widget">
+            <h3 class="title">#<?php echo $player_name; ?></h3>
+            <?php stars_tagged_player_articles($player_name); ?>
+        </div>
     </div>
 </aside>
-
-<?php if($layout=='right') { /* echo twoot_generator('sidebar', $widget, $layout); */ } ?>
 
 </div>
 </div>
