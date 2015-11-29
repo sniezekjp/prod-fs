@@ -32,17 +32,20 @@
     }
 
     function jps_menu_stick(){
+        var header = $('.site-header');
         var menu = $('.site-menu'); 
         menu.wrap('<div class="stick-container"></div>');
-        
-        var height = $('.site-logo').height() + $('.site-topbar').height();
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-            if (scroll >= height) {
-                menu.addClass("stick");
-            } else {
-                menu.removeClass("stick");
-            }
+
+        $(window).on('load', function() {
+            var height = $('.site-header').height() - $('.stick-container').height();
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll >= height) {
+                    menu.addClass("stick");
+                } else {
+                    menu.removeClass("stick");
+                }
+            });            
         });
     }
 

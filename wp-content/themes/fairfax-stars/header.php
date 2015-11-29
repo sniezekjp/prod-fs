@@ -84,7 +84,7 @@
 						<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.jpg" alt="">
 					</a>
 				</h1>
-				<p>Tagline about the stars</p>
+				<p><?php echo get_bloginfo('description'); ?></p>
 			</div>
 			<div class="column six">
 				<img class="gey-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/girls-elite-youth.png" alt="Girls Elite Youth Basketball">
