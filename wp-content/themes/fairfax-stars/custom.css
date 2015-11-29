@@ -10,9 +10,12 @@ input[type=tel] {
     padding: 8px 9px;
 }
 
-/* Display none for now */
+.logo {
+    width: 30%;
+}
+
 .gey-logo { 
-	width: 105px;
+	width: 165px;
 	float: right;
 }
 

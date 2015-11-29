@@ -35,9 +35,10 @@
         var menu = $('.site-menu'); 
         menu.wrap('<div class="stick-container"></div>');
         
-        $(window).scroll(function() {    
+        var height = $('.site-logo').height() + $('.site-topbar').height();
+        $(window).scroll(function() {
             var scroll = $(window).scrollTop();
-            if (scroll >= 215) {
+            if (scroll >= height) {
                 menu.addClass("stick");
             } else {
                 menu.removeClass("stick");

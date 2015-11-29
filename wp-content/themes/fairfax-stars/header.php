@@ -79,7 +79,11 @@
 	<?php //echo twoot_generator('logo'); ?>
 		<div class="rows clearfix">
 			<div class="column six">
-				<h1><a href="/">FS</a></h1>
+				<h1>
+					<a href="/">
+						<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.jpg" alt="">
+					</a>
+				</h1>
 				<p>Tagline about the stars</p>
 			</div>
 			<div class="column six">
